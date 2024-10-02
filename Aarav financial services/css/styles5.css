@@ -1,0 +1,168 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "poppins";
+
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  background-color: white;
+  display: block;
+}
+
+/* Navbar Styling */
+.navbar {
+  list-style: none;
+  padding: 10px 0px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 45px;
+  display: block;
+  font-size: 25px;
+}
+
+.navbar a:hover {
+  color: #6062d1;
+}
+
+/* Dropdown Styling */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content li {
+  width: 100%;
+ list-style-type: none;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px 20px;
+  display: block;
+  text-align: left;
+
+}
+.dropdown-content a:hover {
+  background-color: black;
+}
+
+
+/* Hover effect to show dropdown */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+a[href*="qanda"] {
+  background-color: white;
+  color: black !important;
+  padding: 14px;
+  position: relative;
+  left: 410px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+}
+
+.container .cont1 {
+  margin: 100px 70px;
+}
+
+.cont2 h2 {
+  color: black;
+}
+
+.container .cont2 {
+  color: rgb(0 0 0 /0.7);
+  font-size: 35px;
+  margin-top: 190px;
+  margin-left: -40px;
+}
+
+.container1 {
+  margin-top: 25px;
+  margin-left: 85px;
+  position: absolute;
+  top: 800px;
+
+}
+
+.container1 h2 {
+  font-size: 3rem;
+}
+
+.container1 h3 {
+  font-size: 35px;
+}
+
+.container1 p {
+  color: rgb(0 0 0 /0.7);
+  font-size: 35px;
+  margin-right: 200px;
+}
+
+.container1 ul {
+  margin-bottom: 90px;
+  color: rgb(0 0 0 /0.7);
+  font-size: 35px;
+  margin-left: 70px;
+}
+
+main img {
+  position: relative;
+  top: -62px;
+  width: 2000px;
+  left: 526px;
+  height: 3000px;
+}
+
+hr {
+  margin-top: 190px;
+
+}
+
+.foot1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.con1 {
+  font-size: 23px;
+  margin-top: 80px;
+  margin-bottom: -310px;
+  margin-left: 125px;
+
+}
+
+.icon {
+  position: relative;
+  top: 470px;
+  right: 110px;
+}
+
+.con1 a {
+  text-decoration: none;
+  color: black;
+}
