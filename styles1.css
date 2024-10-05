@@ -1,0 +1,179 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "poppins";
+    
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    background-color: white;
+    display: block;
+}
+
+/* Navbar Styling */
+.navbar {
+  list-style: none;
+  padding: 10px 0px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 45px;
+  display: block;
+  font-size: 25px;
+}
+
+.navbar a:hover {
+  color: #6062d1;
+}
+
+/* Dropdown Styling */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content li {
+  width: 100%;
+ list-style-type: none;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px 20px;
+  display: block;
+  text-align: left;
+
+}
+.dropdown-content a:hover {
+  background-color: black;
+}
+
+
+/* Hover effect to show dropdown */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+a[href*="qanda"]{
+  background-color: white;
+  color: black !important;
+  padding: 14px;
+  position: relative;
+  left: 410px;
+  font-size: 23px;
+  font-weight: bold;
+} 
+.container{
+    height: 1000px;
+}
+.container img{
+    width: 100%;
+    margin-left: -1px;
+
+}
+.container .con{
+    position: relative;
+    bottom: 900px;
+    color: white;
+    font-size: 7rem;
+    text-align: center;
+}
+.container1{
+    display: flex;
+}
+.con p{
+    font-size: 5rem;
+}
+.cont1 h2{
+    color: #5354A3;
+    font-size: 5rem;
+}
+.cont1 p{
+    font-size: 2rem;
+    text-align: justify;
+}
+.cont1{
+    margin: 35px 40px;
+    padding: 80px 70px;
+}
+.con{
+    margin-top: 120px;
+}
+.cont2 img{
+    margin-right: 50px;
+}
+.container3 h2{
+    font-size: 4rem;
+}
+.container3 ul{
+    font-size: 3rem;
+}
+.container3 ul li{
+font-family: "Port Lligat Sans";
+}
+.container3{
+    margin: -25px 120px;
+}
+.container4 h2{
+    font-size: 4rem;
+    color: #5354A3;
+}
+.container4 ul{
+    font-size: 2rem;
+}
+.container4{
+    margin: -25px 120px;
+}
+#con1{
+    margin-top: 180px;
+}
+#con2{
+    margin-top: 180px;
+}
+.container5{
+    display: flex;
+    justify-content: flex-end;
+}
+hr{
+    margin-top: 30px;
+    
+}
+.foot1{
+    display: flex;
+    justify-content: space-around;
+}
+.con1{
+    font-size: 23px;
+    margin-top: 80px;
+    margin-bottom: -310px;
+    margin-left: 125px;
+
+}
+.icon{
+    position: relative;
+    top: 470px;
+    right: 110px;
+}
+.con1 a{
+  text-decoration: none;
+  color: black;
+}
