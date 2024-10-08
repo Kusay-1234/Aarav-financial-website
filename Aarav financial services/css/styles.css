@@ -184,27 +184,37 @@ a[href*="qanda"]{
 .container3{
   background: linear-gradient(to left, #6E5CA8, #5354A3);
     height: 300px;
-    display: flex;
+  
 }
 
 .emilogo {
-  height: 170px;
-  width: 100px;
+  height: 150px;
+  width: 270px; /* Adjusted width */
   background-color: black;
-  margin: 85px;
-  align-self: center;
-  padding-left: 90px;
-  padding-right: 80px;
+  margin: 85px 55px; /* Centering */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0; /* No extra padding needed */
+  position: relative;
+  top: 65px;
 }
-.emilogo a{
+
+.emilogo a {
   color: white;
   font-size: 2rem;
-  position: relative;
-  right: 38px;
   text-decoration: none;
+  display: block;
+  height: 100%; /* Make the link fill the box */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.emilogo a img{
-  bottom: 23px;
+
+.emilogo a img {
+  margin-bottom: 10px;
 }
 
 .kbox{
