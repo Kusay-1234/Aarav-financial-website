@@ -196,3 +196,70 @@ hr{
    margin-bottom: 20px ;
   
 }
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .navbar a{
+  margin-left: -70px;
+  font-size: 13px;
+  }
+  a[href*="qanda"]{
+   left: 50px
+  }
+  .box1 p{
+    margin-left: 27px;
+    margin-right: 36px;
+    font-size: 1.5rem;
+  }
+
+  .btn1{
+    margin-top: 20px;
+    left: 15px;
+  }
+
+  .contact-container{
+    flex-direction: column;
+    margin-left: -5px;
+    font-size: 19px;
+    margin-top: -15px;
+  }
+  .contact-info{
+    margin-left: -14px;
+    margin-top: 35px;
+  }
+  .info-item{
+    margin: -5px 10px;
+  }
+  .follow-us{
+    flex-direction: row;
+    margin-top: 50px;
+  }
+  .follow-us h3{
+    margin-top: 12px;
+  }
+  .follow-us a{
+    margin-left: 50px;
+    margin-right: -35px;
+  }
+  .form-container{
+    margin-top: 60px;
+  }
+  .form-container input{
+    width: 370px;
+  }
+  .form-container button{
+    padding: 7px;
+    margin-top: 5px;
+    width: 200px;
+    font-size: 1.5rem;
+    margin-left: 90px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .btn1{
+    left: 170px;
+  }
+  .contact-container{
+    margin-left: 180px;
+  }
+}

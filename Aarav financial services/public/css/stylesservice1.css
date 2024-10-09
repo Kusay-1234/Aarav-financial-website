@@ -326,3 +326,177 @@ hr{
   text-decoration: none;
   color: black;
 }
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .navbar a{
+  margin-left: -70px;
+  font-size: 13px;
+  }
+  a[href*="qanda"]{
+   left: 50px
+  }
+  .box{
+    flex-direction: column;
+  }
+  .box1 img{
+    width: 400px;
+    height: 200px;
+    margin-left: -65px;
+    margin-top: -40px;
+  }
+  .box .box2{
+        font-size: 1rem;
+    margin: -65px 6px;
+  }
+  .box .box3{
+    font-size: 1rem;
+    margin: 115px 5px;
+}
+.box img{
+  width: 400px;
+  height: 300px;
+  margin-left: -65px;
+        margin-top: -50px;
+}
+.box1{
+  font-size: 13px;
+    margin: 26px 2px;
+}
+#repo{
+  margin-left: 22px;
+    margin-top: 55px;
+    font-size: 22px;
+}
+.rep2{
+  flex-direction: column;
+}
+.rep2 img{
+  margin-left: 142px;
+    margin-top: 35px;
+    padding: 5px;
+}
+.rep2 p {
+  font-size: 24px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+main .cont{
+  font-size: 2rem;
+  margin-top: 55px;
+}
+.box .con {
+  margin: 155px 90px;
+}
+.con img{
+  margin-top: -110px;
+  margin-left: -85px;
+}
+.box .con1 {
+  font-size: 1rem;
+  margin: 110px 5px;
+  margin-top: -150px;
+}
+.box .con3 {
+  font-size: 1rem;
+  margin: 110px 5px;
+  margin-top: -30px;
+}
+.box .con5 {
+  font-size: 1rem;
+  margin: 110px 5px;
+  margin-top: -25px;
+}
+.box .con7 {
+  font-size: 1rem;
+  margin: 110px 5px;
+  margin-top: -30px;
+}
+.container {
+  margin: -40px 37px;
+  font-size: 22px;
+  margin-left: 70px
+}
+.container1 #cont2 {
+  margin-top: 150px;
+}
+.container1 h2{
+  font-size: 30px;
+    margin-top: -30px;
+}
+.container1 img{
+left: 150px;
+margin-top: 55px;
+}
+.container1 p{
+  font-size: 1.5rem;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: -30px;
+}
+.container2 {
+  margin: 80px 35px;
+  font-size: 22px;
+  margin-right: 5px;
+}
+
+.container2 .rep1 {
+  margin-left: -27px;
+  margin-bottom: 25px;
+  font-size: 24px;
+  margin-right: -4px;
+
+}
+.container2 .rep{
+  margin-top: -5px;
+  font-size: 35px;
+  margin-left: -28px;
+}
+.rep::after{
+  left: 104%;
+}
+.cont::after{
+  left: 101%;
+}
+#cont2::after{
+  left: 150%;
+}
+hr{
+  margin-top: 90px;
+}
+.foot1{
+  flex-direction: column;
+ }
+ .con1{
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+ }
+ .icon{
+  top: -20px;
+  right: -250px;
+ }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  header,main,footer{
+    overflow-x: hidden;
+  }
+  .box img{
+    width: 575px;
+    margin-left: 25px;
+  }
+  .cont::after {
+    left: 99%;
+}
+#cont2::after {
+  left: 99%;
+}
+.rep::after {
+  left: 99%;
+}
+.icon{
+  right: -645px;
+ }
+
+}

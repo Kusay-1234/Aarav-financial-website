@@ -169,3 +169,94 @@ hr{
   text-decoration: none;
   color: black;
 }
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .navbar a{
+  margin-left: -70px;
+  font-size: 13px;
+  }
+  a[href*="qanda"]{
+   left: 50px
+  }
+  .box img{
+    width: 460px;
+    height: 330px;
+    margin-top: -15px;
+}
+   .box1{
+    left: 105px;
+    top: 255px;
+    font-size: 1rem;
+   }
+   .container h3{
+    margin-left: -67px;
+    font-size: 28px;
+   }
+   .container p{
+    margin-left: -65px;
+    margin-right: 9px;
+    font-size: 25px;
+    text-align: justify;
+   }
+   .container ul{
+    margin-left: -25px;
+    margin-right: 10px;
+    font-size: 25px;
+    text-align: justify;
+   }
+   .container ol{
+    margin-left: -25px;
+    margin-right: 10px;
+    font-size: 25px;
+    text-align: justify;
+   }
+   .container1 h2{
+    font-size: 19px;
+    padding-left: 15px;
+    padding-top: 16px;
+    margin-top: -70px;
+
+   }
+   .container2 p{
+    font-size: 19px;
+    margin-left: 9px;
+    margin-right: 10px;
+   }
+   hr{
+    margin-top: 60px;
+   }
+   .foot1{
+    flex-direction: column;
+   }
+   .con1{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+   }
+   .icon{
+    top: -20px;
+    right: -250px;
+   }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  header,main,footer{
+    overflow-x: hidden;
+  }
+  .box img {
+    width: 850px;
+  }
+  .box1 {
+    left: 225px;
+    top: 240px;
+    font-size: 1.5rem;
+}
+.container1{
+  text-align: center;
+}
+  .icon{
+    right: -645px;
+   }
+
+}
