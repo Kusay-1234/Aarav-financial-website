@@ -10,10 +10,10 @@
     justify-content: center;
 }
 
-.logo img {
+ .logo img {
     background-color: white;
     display: block;
-}
+} 
 
 
 /* Navbar Styling */
@@ -28,13 +28,15 @@
 
 .navbar li {
   position: relative;
+  margin: 0 40px;
 }
 
 .navbar a {
   color: white;
+  text-align: center;
   text-decoration: none;
-  padding: 12px 45px;
-  display: block;
+  padding: 12px 20px;
+  display: inline-block;
   font-size: 25px;
 }
 
@@ -301,27 +303,27 @@ hr{
 
 /* Responsive design */
 
- /* @media (max-width: 767px) {
-        header{ */
-          /* height: 100vh; */
-          /* width: 100%;
+ /* @media only screen and (max-width: 767px) { */
+        /* header{ 
+          height: 100vh; 
+           width: 100%;
           
           overflow-x: hidden;
           overflow-y: hidden;
-        } */
-        /* main{ */
-          /* height: 100vh; */
-          /* width: 100%;
+        } 
+         main{ 
+          height: 100vh; 
+          width: 100%;
           
           overflow-x: hidden;
         }
-        footer{ */
-          /* height: 100vh; */
-          /* width: 100%;
+        footer{ 
+           height: 100vh; 
+           width: 100%;
          
           overflow-x: hidden;
-        }
-       .navbar a{
+        } */
+       /* .navbar a{
        margin-left: -70px;
        font-size: 13px;
        }
@@ -527,7 +529,8 @@ hr{
 
 
 }  */
-@media only screen and (max-width:480px){
+
+/* @media only screen and (max-width:480px){
   header{
       overflow-x: hidden;
       width: 100%;
@@ -587,10 +590,10 @@ hr{
       overflow-x: hidden;
   }
 
-}
+} */
 
 
-@media only screen and (min-width: 1025px) and (max-width: 1440px){
+/* @media only screen and (min-width: 1025px) and (max-width: 1440px){
   header{
       overflow-x: hidden;
       width:100%;
@@ -602,9 +605,9 @@ hr{
 
   }
   footer{
-      width: 100%;
+      width: 100%; */
       /* overflow-x:hidden; */
-  }
+  /* }
   html, body {
       overflow-x: hidden;
   }
@@ -623,13 +626,865 @@ hr{
 
   }
   footer{
-      width: 100%;
+      width: 100%; */
       /* overflow-x:hidden; */
-  }
+  /* }
   html, body {
       overflow-x: hidden;
   }
   
 }
+ */
 
+/* Media Query for Mobile Devices (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+    /* General Body Styling */
+    body {
+        
+        font-size: 14px;
+        line-height: 1.5; 
+         overflow-x: hidden; /*Prevent horizontal scrolling */
+    }
+
+    .navbar {
+      list-style: none;
+      padding: 10px 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      background-color: black;
+    
+    }
+    .navbar li{
+      margin: 0;
+    }
+   
+  
+    
+    .navbar a{
+      
+      font-size: 18px;
+      display: inline-block;
+      padding: 10px 0;
+      
+      }
+  
+      a[href*="qanda"]{
+        position: relative;
+        padding: 15px;
+       left: 5px
+      }
+    
+
+ 
+    .cont{
+    position: relative;
+    left: 5px;
+    top: -15px;
+    }
+    .cont1{
+    position: relative;
+    left: 8px;
+    top: -5px;
+    }
+
+   
+    /* Main Box Layout */
+    .box {
+        flex-direction: column; /* Stack vertically */
+        height: auto; /* Allow for dynamic height */
+        padding: 10px;
+    }
+
+    .box1 {
+        margin: 10px; /* Adjust margin for boxes */
+        padding: 10px; /* Adjust padding for boxes */
+        text-align: center; /* Center text in boxes */
+    }
+    .kbox{
+      flex-direction: column;
+    }
+
+    .box1 h2, .box1 h3, .box1 p {
+        font-size: 1.2rem; /* Adjust font size for mobile */
+        margin: 5px 0; /* Adjust margins for spacing */
+    }
+
+    /* Button */
+    .btn {
+        padding: 10px 20px; /* Adjust button padding */
+        font-size: 1rem; /* Adjust font size */
+        margin: 10px auto; /* Center buttons */
+        width: 80%; /* Button width for better fit */
+        text-align: center;
+        display: block; /* Make the button block-level */
+    }
+
+    /* Content Container */
+    .container {
+        flex-direction: column; /* Stack items vertically */
+        padding: 10px; /* Padding around the container */
+        align-items: center; /* Center align items */
+    }
+
+    /* Image Styles */
+    .emilogo, .cont2 img {
+        max-width: 100%; /* Responsive images */
+        height: auto; /* Maintain aspect ratio */
+        margin: 10px auto; /* Center images */
+        display: block; /* Block-level for centering */
+    }
+
+    /* Box 3 and Box 4 Adjustments */
+     .box3,.box4 {
+        width: 85%; /* Responsive box width */
+        margin: 10px auto; /* Center the boxes */
+        padding: 15px; /* Padding inside boxes */
+        font-size: 1rem; /* Font size for boxes */
+        text-align: center; /* Center text */
+        border: 1px solid #ccc; /* Optional border for visibility */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for better visual */
+    }
+
+    hr {
+        margin: 20px 0; /* Margin for horizontal rule */
+    }
+
+
+  .logo img {
+      width: 80px;
+      height: 80px;
+  }
+
+
+
+  .box {
+      flex-direction: column;
+      height: auto;
+  }
+
+  .box1 {
+      margin: 10px;
+      text-align: center;
+  }
+
+  .box1 h2, .box1 h3 {
+      font-size: 1.8rem;
+  }
+
+  .box1 p {
+      font-size: 1rem;
+      margin: 10px 0;
+  }
+
+  .btn {
+      padding: 10px 40px;
+      font-size: 18px;
+  }
+
+  .box2 {
+      margin: 0;
+      padding: 10px;
+      text-align: center;
+  }
+
+  .box2 img {
+      width: 100%;
+      height: auto;
+  }
+
+  .container, .container2, .container3, .container4, .container5 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .cont1 h2, .cont1 p {
+      font-size: 1.8rem;
+  }
+
+  .cont3 {
+      font-size: 1.6rem;
+      margin: 20px;
+  }
+
+  .box3 {
+      width: 80%;
+      margin: 20px;
+      font-size: 1rem;
+      height: auto;
+  }
+
+  .kbox1{
+    flex-direction: column;
+
+  }
+  .kbox2{
+    flex-direction: column;
+  }
+
+  .emilogo {
+      width: 80%;
+      height: auto;
+      margin: 10px;
+      left: 30px;
+  }
+
+  .foot1 {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .con1 {
+      font-size: 1rem;
+      margin: 10px;
+      text-align: center;
+  }
+
+  .icon {
+      margin-top: 20px;
+      position: relative;
+      top: auto;
+      right: auto;
+  }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+  /* ---- MEDIA QUERY FOR SMALL TABLETS AND LARGE SMARTPHONES ---- */
+
+  .navbar a{
+    margin-left: -70px;
+    font-size: 13px;
+    }
+    a[href*="qanda"]{
+     left: 50px
+    }
+
+  /* Box Section */
+  .box {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+      /* height: 300px; */
+  }
+
+  .box1 {
+      margin: 10px 15px;
+      font-size: 20px; /* Slightly smaller font for small devices */
+      align-self: center;
+  }
+
+  .box1 h2 {
+      font-size: 2rem; /* Further adjust heading sizes */
+      margin-left: 0;
+      text-align: center;
+  }
+
+  .box1 h3 {
+      font-size: 1.8rem;
+      margin-left: 0;
+      text-align: center;
+  }
+
+  .box1 p {
+      font-size: 1rem;
+      margin-left: 0;
+      text-align: center;
+  }
+
+  /* Button */
+  .btn {
+      padding: 10px 30px; /* Smaller button for smaller screens */
+      margin: 20px auto;
+      font-size: 18px;
+      display: block;
+  }
+
+  /* Container */
+  .container {
+      flex-direction: column;
+      height: auto;
+  }
+
+  .cont, .cont1 {
+      position: static;
+      margin: 15px 20px;
+  }
+
+  .cont1 h2 {
+      font-size: 3rem;
+      text-align: center;
+  }
+
+  .cont1 p {
+      font-size: 2rem;
+      text-align: center;
+  }
+
+  /* Additional Containers */
+  .container2 {
+      flex-direction: column;
+  }
+
+  .cont3 {
+      font-size: 1.6rem;
+      margin: 15px 20px;
+      text-align: center;
+  }
+
+  .cont2 img {
+      margin: 15px auto;
+      width: 80%;
+      height: 50%;
+  }
+
+  /* Emilogo */
+  .emilogo {
+      height: auto;
+      width: 70%; /* Slightly narrower for these screens */
+      margin: 20px auto;
+      top: 65px;
+  }
+
+  .emilogo a {
+      font-size: 1.3rem;
+  }
+
+  /* Bordered Element */
+  .bord {
+      width: 80%;
+      margin: 30px auto;
+  }
+
+  /* Boxes */
+  .box3, .box4 {
+      width: 70%; /* Adjust box width */
+      margin: 20px auto;
+      height: auto;
+      padding: 25px;
+      font-size: 1rem;
+  }
+
+  /* Centering Boxes */
+  .kbox, .kbox1, .kbox2 {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  /* Footer */
+  .foot1 {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .con1 {
+      font-size: 18px;
+      margin: 20px;
+      text-align: center;
+  }
+
+  .icon {
+      position: static;
+      margin: 20px;
+  }
+
+
+  
+
+  .box {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+    
+  }
+
+  .box1 h2 {
+      font-size: 2.4rem;
+  }
+
+  .box1 h3 {
+      font-size: 2rem;
+  }
+
+  .box1 p {
+      font-size: 1.2rem;
+  }
+
+  .btn {
+      padding: 12px 50px;
+      font-size: 20px;
+  }
+
+  .box2 img {
+      width: 100%;
+      height: auto;
+      margin-top: 0px;
+  }
+
+  .container, .container2, .container3, .container4, .container5 {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .cont1 h2 {
+      font-size: 3rem;
+  }
+
+  .cont1 p {
+      font-size: 2rem;
+  }
+
+  .cont3 {
+      font-size: 2rem;
+      margin: 20px;
+  }
+
+  .box3 {
+      width: 80%;
+      font-size: 1.4rem;
+      height: auto;
+  }
+
+  .emilogo {
+      width: 60%;
+      height: 60%;
+  }
+
+  .foot1 {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .con1 {
+      font-size: 1.6rem;
+  }
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* ---- MEDIA QUERY FOR TABLETS ---- */
+
+  .navbar a{
+    margin-left: -70px;
+    font-size: 20px;
+    }
+    a[href*="qanda"]{
+     left: 50px
+    }
+
+  /* Box Section */
+  .box {
+      flex-direction: column;
+      height: auto; /* Make height flexible */
+      padding: 20px;
+  }
+
+  .box1 {
+      margin: 16px 20px; /* Adjust margin for tablets */
+      font-size: 22px; /* Slightly smaller font */
+      align-self: center;
+  }
+
+  .box1 h2 {
+      font-size: 2.5rem; /* Adjust title font size */
+      margin-left: 0; /* Centered for tablet screens */
+      text-align: center;
+  }
+
+  .box1 h3 {
+      font-size: 2rem;
+      margin-left: 0;
+      text-align: center;
+  }
+
+  .box1 p {
+      font-size: 1.2rem;
+      margin-left: 0;
+      text-align: center;
+  }
+
+  /* Button */
+  .btn {
+      padding: 12px 40px; /* Slightly larger button padding */
+      margin: 20px auto;
+      font-size: 20px;
+      display: block;
+  }
+
+  /* Container */
+  .container {
+      flex-direction: column;
+      height: auto;
+  }
+
+  .cont, .cont1 {
+      position: static; /* Remove positioning for better flexibility */
+      margin: 20px; /* Provide consistent margins */
+  }
+
+  .cont1 h2 {
+      font-size: 3.5rem;
+      text-align: center; /* Ensure headers are centered */
+  }
+
+  .cont1 p {
+      font-size: 2.5rem;
+      text-align: center;
+  }
+
+  /* Additional Containers */
+  .container2 {
+      flex-direction: column;
+  }
+
+  .cont3 {
+      font-size: 1.8rem;
+      margin: 20px;
+      text-align: center;
+  }
+
+  .cont2 img {
+      margin: 20px auto;
+      width: 100%;
+  }
+
+  /* Emilogo */
+  .emilogo {
+      height: auto;
+      width: 60%; /* Increase width for tablets */
+      margin: 20px auto;
+      top: 0;
+  }
+
+  .emilogo a {
+      font-size: 1.5rem;
+  }
+
+  /* Bordered Element */
+  .bord {
+      width: 80%;
+      margin: 30px auto;
+  }
+
+  /* Boxes */
+  .box3, .box4 {
+      width: 60%; /* Larger width on tablet */
+      margin: 30px auto;
+      height: auto;
+      padding: 30px;
+      font-size: 1.2rem;
+  }
+
+  .box3 {
+      margin-top: 50px;
+  }
+
+  /* Centering Boxes */
+  .kbox, .kbox1, .kbox2 {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  /* Footer */
+  .foot1 {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .con1 {
+      font-size: 20px;
+      margin: 30px;
+      text-align: center;
+  }
+
+  .icon {
+      position: static;
+      margin: 30px;
+  }
+
+  .box {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 20px;
+      height: auto;
+  }
+
+  .box1 h2 {
+      font-size: 3rem;
+  }
+
+  .box1 h3 {
+      font-size: 2.5rem;
+  }
+
+  .box1 p {
+      font-size: 1.5rem;
+  }
+
+  .btn {
+      padding: 12px 60px;
+      font-size: 20px;
+  }
+
+  .box2 img {
+      width: 150%;
+      height: 400px;
+      margin-top: 0;
+      margin-left: -30px;
+  }
+
+  .container {
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  .cont1 h2 {
+      font-size: 3.5rem;
+  }
+
+  .cont1 p {
+      font-size: 2.5rem;
+  }
+
+  .cont3 {
+      font-size: 2.5rem;
+  }
+
+  .box3 {
+      width: 40%;
+      font-size: 1.8rem;
+  }
+
+  .emilogo {
+      width: 35%;
+      top: 75px;
+      
+  }
+
+  .foot1 {
+      flex-direction: column;
+      justify-content: space-around;
+  }
+
+  .con1 {
+      font-size: 1.8rem;
+      margin: 0;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+
+  /* Special Link */
+  .navbar a{
+    margin-left: -40px;
+    font-size: 20px;
+    }
+    a[href*="qanda"]{
+     left: 50px
+    }
+
+  /* Box Section */
+  .box {
+      flex-direction: column;
+      height: auto; /* Make height flexible */
+      
+      padding: 20px;
+  }
+
+  .box1 {
+      margin: 16px 20px; /* Adjust margin for tablets */
+      font-size: 22px; /* Slightly smaller font */
+      align-self: center;
+  }
+
+  .box1 h2 {
+      font-size: 2.5rem; /* Adjust title font size */
+      margin-left: 0; /* Centered for tablet screens */
+      text-align: center;
+  }
+
+  .box1 h3 {
+      font-size: 2rem;
+      margin-left: 0;
+      text-align: center;
+  }
+
+  .box1 p {
+      font-size: 1.2rem;
+      margin-left: 0;
+      text-align: center;
+  }
+
+  /* Button */
+  .btn {
+      padding: 12px 40px; /* Slightly larger button padding */
+      margin: 20px auto;
+      font-size: 20px;
+      display: block;
+  }
+
+  /* Container */
+  .container {
+      flex-direction: column;
+      height: auto;
+  }
+
+  .cont, .cont1 {
+      position: static; /* Remove positioning for better flexibility */
+      margin: 20px; /* Provide consistent margins */
+  }
+
+  .cont1 h2 {
+      font-size: 3.5rem;
+      text-align: center; /* Ensure headers are centered */
+  }
+
+  .cont1 p {
+      font-size: 2.5rem;
+      text-align: center;
+  }
+
+  /* Additional Containers */
+  .container2 {
+      flex-direction: column;
+  }
+
+  .cont3 {
+      font-size: 1.8rem;
+      margin: 20px;
+      text-align: center;
+  }
+
+  .cont2 img {
+      margin: 20px auto;
+      width: 100%;
+  }
+
+  /* Emilogo */
+  .emilogo {
+      height: auto;
+      width: 60%; /* Increase width for tablets */
+      margin: 20px auto;
+      top: 0;
+  }
+
+  .emilogo a {
+      font-size: 1.5rem;
+  }
+
+  /* Bordered Element */
+  .bord {
+      width: 80%;
+      margin: 30px auto;
+  }
+
+  /* Boxes */
+  .box3, .box4 {
+      width: 60%; /* Larger width on tablet */
+      margin: 30px auto;
+      height: auto;
+      padding: 30px;
+      font-size: 1.2rem;
+  }
+
+  .box3 {
+      margin-top: 50px;
+  }
+
+  /* Centering Boxes */
+  .kbox, .kbox1, .kbox2 {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  /* Footer */
+  .foot1 {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .con1 {
+      font-size: 20px;
+      margin: 30px;
+      text-align: center;
+  }
+
+  .icon {
+      position: static;
+      margin: 30px;
+  }
+
+  .box {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 20px;
+      height: auto;
+  }
+
+  .box1 h2 {
+      font-size: 3rem;
+  }
+
+  .box1 h3 {
+      font-size: 2.5rem;
+  }
+
+  .box1 p {
+      font-size: 1.5rem;
+  }
+
+  .btn {
+      padding: 12px 60px;
+      font-size: 20px;
+  }
+
+  .box2 img {
+      width: 150%;
+      height: 400px;
+      margin-top: 0;
+      margin-left: -30px;
+  }
+
+  .container {
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  .cont1 h2 {
+      font-size: 3.5rem;
+  }
+
+  .cont1 p {
+      font-size: 2.5rem;
+  }
+
+  .cont3 {
+      font-size: 2.5rem;
+  }
+
+  .box3 {
+      width: 40%;
+      font-size: 1.8rem;
+  }
+
+  .emilogo {
+      width: 35%;
+      top: 75px;
+      
+  }
+
+  .foot1 {
+      flex-direction: column;
+      justify-content: space-around;
+  }
+
+  .con1 {
+      font-size: 1.8rem;
+      margin: 0;
+  }
+}
 

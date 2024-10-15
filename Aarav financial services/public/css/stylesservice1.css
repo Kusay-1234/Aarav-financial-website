@@ -328,13 +328,13 @@ hr{
 }
 
 /* Responsive design */
-@media (max-width: 768px) {
+@media only screen and (max-width: 480px) {
   .navbar a{
   margin-left: -70px;
   font-size: 13px;
   }
   a[href*="qanda"]{
-   left: 50px
+   left: 50px;
   }
   .box{
     flex-direction: column;

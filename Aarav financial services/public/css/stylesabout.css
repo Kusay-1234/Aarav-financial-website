@@ -29,13 +29,15 @@
 
 .navbar li {
   position: relative;
+  margin: 0 40px;
 }
 
 .navbar a {
   color: white;
+  text-align: center;
   text-decoration: none;
-  padding: 12px 45px;
-  display: block;
+  padding: 12px 20px;
+  display: inline-block;
   font-size: 25px;
 }
 
@@ -180,22 +182,40 @@ hr{
 
 /* Responsive design */
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 480px) {
 
+  body{
+    overflow-x: hidden;
+  }
+  .navbar {
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    white-space: nowrap;
+  }
+  
+ 
+
+  
   .navbar a{
     margin-left: -70px;
     font-size: 13px;
+    display: block;
     }
+
     a[href*="qanda"]{
      left: 50px
     }
+
     .container img{
       height: 320px;
     }
     .container .con{
       bottom: 390px;
       font-size: 1.5rem;
-
     }
     .con p{
       font-size: 2rem;
@@ -275,19 +295,471 @@ hr{
       right: -250px;
      }
 }
-@media (min-width: 768px) and (max-width: 1024px){
-  /* header,main,footer{
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+  body{
     overflow-x: hidden;
-  } */
-  .cont2 img{
-    width: 550px;
-    margin-left: 85px;
   }
-  .container5 img{
-    width: 600px;
-    margin-right: -35px;
-  }
-  .icon{
-    right: -645px;
-   }
+
+   .navbar a{
+    margin-left: -70px;
+    font-size: 13px;
+    }
+    a[href*="qanda"]{
+     left: 50px
+    }
+    .container img{
+      height: 320px;
+    }
+    .container .con{
+      bottom: 390px;
+      font-size: 1.5rem;
+    }
+    .con p{
+      font-size: 2rem;
+    }
+
+    .container1{
+      flex-direction: column;
+    }
+
+    .cont1 h2{
+      font-size: 2rem;
+      margin-left: -17px;
+      margin-top: -790px;
+    }
+    .cont1 p{
+      margin-left: -90px;
+      margin-right: -85px;
+      font-size: 1.5rem;
+
+    }
+
+    .container1 .con{
+      margin-top: 88px;
+    }
+    .cont2 img{
+      width: 460px;
+      height: 600px;
+      margin-left: -25px;
+      margin-top: -125px;
+    }
+    .container3 h2{
+      font-size: 2rem;
+    margin-left: -60px;
+    margin-right: -180px;
+    margin-top: 45px;
+    }
+    .container3 ul{
+      margin-right: -115px;
+      margin-left: -75px;
+      font-size: 1.5rem;
+    }
+    .container4 h2{
+      font-size: 2rem;
+    margin-left: -60px;
+    margin-right: -180px;
+    margin-top: 45px;
+    }
+    .container4 ul{
+      margin-right: -115px;
+      margin-left: -75px;
+      font-size: 1.5rem;
+    }
+    .container4 #con1{
+      margin-top: 60px;
+    }
+    .container4 #con2{
+      margin-top: 35px;
+      margin-left: -85px;
+    }
+    .container5 img{
+      width: 500px;
+      height: 400px;
+      margin-right: -170px;
+    }
+
+    .foot1{
+      flex-direction: column;
+     }
+     .con1{
+      font-size: 22px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 40px;
+     }
+     .icon{
+      top: -20px;
+      right: -250px;
+      position: static;
+     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  body{
+    overflow-x: hidden;
+  }
+
+   .navbar a{
+    margin-left: -40px;
+    font-size: 20px;
+    }
+    a[href*="qanda"]{
+     left: 50px
+    }
+    .container img{
+      height: 320px;
+    }
+    .container .con{
+      bottom: 390px;
+      font-size: 1.5rem;
+    }
+    .con p{
+      font-size: 2rem;
+    }
+
+    .container1{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .cont1 h2{
+      font-size: 2rem;
+      margin-left: -17px;
+      margin-top: -790px;
+    }
+    .cont1 p{
+      margin-left: -90px;
+      margin-right: -85px;
+      font-size: 1.5rem;
+
+    }
+
+    .container1 .con{
+      margin-top: 88px;
+    }
+    .cont2 img{
+      width: 460px;
+      height: 600px;
+      margin-left: -25px;
+      margin-top: -125px;
+      margin-top: -125px;
+    }
+    .container3 h2{
+      font-size: 2rem;
+    margin-left: -60px;
+    margin-right: -180px;
+    margin-top: 45px;
+    }
+    .container3 ul{
+      margin-right: -115px;
+      margin-left: -75px;
+      font-size: 1.5rem;
+    }
+    .container4 h2{
+      font-size: 2rem;
+    margin-left: -60px;
+    margin-right: -180px;
+    margin-top: 45px;
+    }
+    .container4 ul{
+      margin-right: -115px;
+      margin-left: -75px;
+      font-size: 1.5rem;
+    }
+    .container4 #con1{
+      margin-top: 60px;
+    }
+    .container4 #con2{
+      margin-top: 35px;
+      margin-left: -85px;
+    }
+    .container5 img{
+      width: 500px;
+      height: 400px;
+      margin-right: -170px;
+    }
+    footer{
+      text-align: center;
+    }
+
+    .foot1{
+      flex-direction: column;
+      
+     }
+     .con1{
+      font-size: 22px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 40px;
+     }
+     .icon{
+      top: -20px;
+      right: -250px;
+      position: static; 
+     }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px){
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .navbar a{
+    margin-left: -40px;
+    font-size: 20px;
+    }
+    a[href*="qanda"]{
+     left: 50px
+    }
+    
+    .container img{
+      height: 320px;
+    }
+    .container .con{
+      bottom: 390px;
+      font-size: 1.5rem;
+    }
+    .con p{
+      font-size: 2rem;
+    }
+
+    /* .container1{
+      flex-direction: column;
+      align-items: center;
+    } */
+
+    .cont1 h2{
+      font-size: 2rem;
+      margin-left: -17px;
+      margin-top: -790px;
+    }
+    .cont1 p{
+      margin-left: -90px;
+      margin-right: -85px;
+      font-size: 1.5rem;
+
+    }
+
+    .container1 .con{
+      margin-top: 88px;
+    }
+     .cont2 img{
+       width: 550px; 
+       height: 700px; 
+       margin-left: -25px; 
+       margin-top: -450px; 
+       margin-right: -10px;
+     } 
+    .container3 h2{
+      font-size: 2rem;
+    margin-left: -60px;
+    margin-right: -180px;
+    margin-top: 45px;
+    }
+    .container3 ul{
+      margin-right: -115px;
+      margin-left: -75px;
+      font-size: 1.5rem;
+    }
+    .container4 h2{
+      font-size: 2rem;
+    margin-left: -60px;
+    margin-right: -180px;
+    margin-top: 45px;
+    }
+    .container4 ul{
+      margin-right: -115px;
+      margin-left: -75px;
+      font-size: 1.5rem;
+    }
+    .container4 #con1{
+      margin-top: 60px;
+    }
+    .container4 #con2{
+      margin-top: 35px;
+      margin-left: -85px;
+    }
+    .container5 img{
+      width: 650px;
+      height: 500px;
+      margin-right: -170px;
+    }
+    /* footer{
+      text-align: center;
+    }
+
+    .foot1{
+      flex-direction: column;
+      
+     } */
+     .con1{
+      font-size: 22px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 40px;
+     }
+     .icon{
+      display: flex;
+      top: 12px;
+     right: 5px; 
+    
+     }
+     
+}
+
+@media only screen and (min-width: 1441px){
+ 
+  body{
+    overflow-x: hidden;
+  }  
+
+    a[href*="qanda"]{
+      left: 200px
+     }
+    
+   
+     .container .con{
+      bottom: 570px;
+       font-size: 3rem; 
+      
+    }
+    .con p{
+      font-size: 4rem;
+    } 
+
+    .container1{
+      
+      align-items: center;
+    }
+
+     .cont1 h2{
+     font-size: 3rem;
+      margin-top: -400px;
+    } 
+    .cont1 p{
+      margin-left: -90px;
+      margin-right: -85px;
+      font-size: 1.5rem;
+
+    }
+
+    .container1 .con{
+      margin-top: 88px;
+    }
+    .cont2 img{
+      width: 700px;
+      height: 700px;
+      margin-left: -25px;
+      margin-top: 15px;
+      margin-right: -15px;
+    }
+    .container3 h2{
+      font-size: 2rem;
+    margin-left: -60px;
+    margin-right: -180px;
+    margin-top: 45px;
+    }
+    .container3 ul{
+      margin-right: -115px;
+      margin-left: -75px;
+      font-size: 1.5rem;
+    }
+    .container4 h2{
+      font-size: 2rem;
+    margin-left: -60px;
+    margin-right: -180px;
+    margin-top: 45px;
+    }
+    .container4 ul{
+      margin-right: -115px;
+      margin-left: -75px;
+      font-size: 1.5rem;
+    }
+    .container4 #con1{
+      margin-top: 60px;
+    }
+    .container4 #con2{
+      margin-top: 35px;
+      margin-left: -85px;
+    }
+    .container5 img{
+      margin-right: -170px;
+    }
+    
+     /* .con1{
+      font-size: 22px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 40px;
+     } */
+     /* .icon{
+      top: -20px;
+      right: -250px;
+      position: static; 
+     } */
+      .icon{
+        display: flex;
+        /* bottom: 30px; */
+      }
+
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
