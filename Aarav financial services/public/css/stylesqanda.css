@@ -179,13 +179,36 @@ hr{
     overflow-x: hidden;
   }
 
-  .navbar a{
-  margin-left: -70px;
-  font-size: 13px;
+  .logo {
+    justify-content: center; /* Center the logo */
+    margin: 10px 0; /* Add some margin for spacing */
   }
-  a[href*="qanda"]{
-   left: 50px
+
+  .logo img {
+    height: 80px; /* Reduce logo size */
+    width: 80px; /* Reduce logo size */
   }
+
+  .navbar {
+    flex-direction: column; /* Stack nav items vertically */
+    align-items: center; /* Center items */
+    padding: 0; /* Remove padding */
+  }
+
+  .navbar li {
+    margin: 5px 0; /* Reduce margin between items */
+  }
+
+  .navbar a {
+    font-size: 18px; /* Smaller font size for links */
+    padding: 10px 15px; /* Adjust padding for smaller screens */
+  }
+
+  a[href*="qanda"] {
+    left: 0; /* Reset left position */
+    font-size: 18px; /* Smaller font size */
+  }
+
   
     .box img {
       width: 100%; /* Ensure the image scales down for smaller screens */
@@ -194,9 +217,9 @@ hr{
   
     .box1 {
       left: 25%; /* Center the text horizontally */
-      top: 20%; /* Adjust the vertical position */
+      top: 35%; /* Adjust the vertical position */
       font-size: 3vw; /* Reduce font size for smaller screens */
-      transform: translate(-4%);
+      transform: translate(0%);
     }
 
     
@@ -239,31 +262,57 @@ hr{
    hr{
     margin-top: 60px;
    }
-   .foot1{
-    flex-direction: column;
-   }
-   .con1{
-    font-size: 22px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 40px;
-   }
-   .icon{
-    top: -20px;
-    right: -250px;
-   }
+   .foot1 {
+    display: block; /* Stack the footer content vertically */
+    text-align: center;
+    margin-top: 20px; /* Add some space above the footer */
+  }
+  
+  .con1 {
+    margin-left: 0; /* Reset margins */
+    margin-right: 0;
+    margin-bottom: 20px; /* Space out footer items */
+  }
+  
+  .icon {
+    top: 0;
+    right: 0;
+    text-align: center; /* Center icons */
+  }
 }
 @media only screen and (min-width: 481px) and (max-width: 767px) {
 
   body{
     overflow-x: hidden;
   }
-  .navbar a{
-  margin-left: -70px;
-  font-size: 13px;
+  .logo {
+    justify-content: center; /* Center the logo */
+    margin: 15px 0; /* Add some margin for spacing */
   }
-  a[href*="qanda"]{
-   left: 50px
+
+  .logo img {
+    height: 100px; /* Adjust logo size for medium screens */
+    width: 100px; /* Adjust logo size for medium screens */
+  }
+
+  .navbar {
+   flex-wrap: nowrap;
+   justify-content: center;
+  }
+
+  .navbar li {
+    margin: 0 15px; /* Reduce side margin */
+  }
+
+  .navbar a {
+    font-size: 14px; /* Adjust font size for medium screens */
+    padding: 10px 0px; /* Keep padding consistent */
+  }
+
+  a[href*="qanda"] {
+    left: 0; /* Reset left position */
+    font-size: 16px;
+    width: 55px; /* Adjust font size */
   }
   
     .box img {
@@ -319,18 +368,21 @@ hr{
    hr{
     margin-top: 60px;
    }
-   .foot1{
+   footer{
+    text-align: center;
+  }
+
+  .foot1{
     flex-direction: column;
    }
    .con1{
     font-size: 22px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 25px;
     margin-left: 40px;
    }
    .icon{
-    top: -20px;
-    right: -250px;
+    position: static;
    }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -341,7 +393,7 @@ hr{
 
   .navbar a{
     margin-left: -40px;
-    font-size: 20px;
+    font-size: 17px;
     }
     a[href*="qanda"]{
      left: 50px
@@ -400,18 +452,21 @@ hr{
    hr{
     margin-top: 60px;
    }
-   .foot1{
+   footer{
+    text-align: center;
+  }
+
+  .foot1{
     flex-direction: column;
+    
    }
    .con1{
-    font-size: 22px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 25px;
     margin-left: 40px;
    }
    .icon{
-    top: -20px;
-    right: -250px;
+    position: static; 
    }
 }
 
@@ -423,7 +478,7 @@ hr{
 
   .navbar a{
     margin-left: -40px;
-    font-size: 20px;
+    font-size: 23px;
     }
     a[href*="qanda"]{
      left: 50px
@@ -480,18 +535,21 @@ hr{
    hr{
     margin-top: 60px;
    }
-   .foot1{
-    flex-direction: column;
-   }
    .con1{
     font-size: 22px;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 40px;
+    margin-left: 100px;
+    margin-right: -70px;
    }
-   .icon{
-    top: -20px;
-    right: -250px;
+  
+
+   .icon {
+    position: relative;
+    margin-top: 375px;
+    display: flex;
+    top: 50px;
+    right: 25px;
    }
 }
 
@@ -558,10 +616,12 @@ hr{
     margin-top: 60px;
    }
   
-   .icon{
+   .icon {
+    position: relative;
+    margin-top: 120px;
     display: flex;
-    
-    position: static;
-    
-   } 
+    top: 300px;
+    right: 25px;
+
+   }
 }

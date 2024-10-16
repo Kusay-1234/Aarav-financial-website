@@ -207,25 +207,36 @@ hr{
     overflow-x: hidden;
   }
 
-  .navbar {
-    list-style: none;
-    padding: 10px 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    white-space: nowrap;
+  .logo {
+    justify-content: center; /* Center the logo */
+    margin: 10px 0; /* Add some margin for spacing */
   }
-  
-  .navbar a{
-    margin-left: -70px;
-    font-size: 13px;
-    display: block;
-    }
 
-    a[href*="qanda"]{
-     left: 50px
-    }
+  .logo img {
+    height: 80px; /* Reduce logo size */
+    width: 80px; /* Reduce logo size */
+  }
+
+  .navbar {
+    flex-direction: column; /* Stack nav items vertically */
+    align-items: center; /* Center items */
+    padding: 0; /* Remove padding */
+  }
+
+  .navbar li {
+    margin: 5px 0; /* Reduce margin between items */
+  }
+
+  .navbar a {
+    font-size: 18px; /* Smaller font size for links */
+    padding: 10px 15px; /* Adjust padding for smaller screens */
+  }
+
+  a[href*="qanda"] {
+    left: 0; /* Reset left position */
+    font-size: 18px; /* Smaller font size */
+  }
+
   
 
   /* Box1 paragraph adjustments */
@@ -353,13 +364,35 @@ hr{
     overflow-x: hidden;
   }
 
-  .navbar a{
-    margin-left: -70px;
-    font-size: 13px;
-    }
-    a[href*="qanda"]{
-     left: 50px
-    }
+  .logo {
+    justify-content: center; /* Center the logo */
+    margin: 15px 0; /* Add some margin for spacing */
+  }
+
+  .logo img {
+    height: 100px; /* Adjust logo size for medium screens */
+    width: 100px; /* Adjust logo size for medium screens */
+  }
+
+  .navbar {
+   flex-wrap: nowrap;
+   justify-content: center;
+  }
+
+  .navbar li {
+    margin: 0 15px; /* Reduce side margin */
+  }
+
+  .navbar a {
+    font-size: 14px; /* Adjust font size for medium screens */
+    padding: 10px 0px; /* Keep padding consistent */
+  }
+
+  a[href*="qanda"] {
+    left: 0; /* Reset left position */
+    font-size: 16px;
+    width: 55px; /* Adjust font size */
+  }
 
   /* Box1 paragraph adjustments */
   .box1 p {
@@ -497,7 +530,7 @@ hr{
 
   .navbar a{
     margin-left: -40px;
-    font-size: 20px;
+    font-size: 17px;
     }
     a[href*="qanda"]{
      left: 50px
@@ -641,7 +674,7 @@ hr{
 
   .navbar a{
     margin-left: -40px;
-    font-size: 20px;
+    font-size: 23px;
     }
     a[href*="qanda"]{
      left: 50px

@@ -187,28 +187,35 @@ hr{
   body{
     overflow-x: hidden;
   }
-  .navbar {
-    list-style: none;
-    padding: 10px 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    white-space: nowrap;
+  .logo {
+    justify-content: center; /* Center the logo */
+    margin: 10px 0; /* Add some margin for spacing */
   }
-  
- 
 
-  
-  .navbar a{
-    margin-left: -70px;
-    font-size: 13px;
-    display: block;
-    }
+  .logo img {
+    height: 80px; /* Reduce logo size */
+    width: 80px; /* Reduce logo size */
+  }
 
-    a[href*="qanda"]{
-     left: 50px
-    }
+  .navbar {
+    flex-direction: column; /* Stack nav items vertically */
+    align-items: center; /* Center items */
+    padding: 0; /* Remove padding */
+  }
+
+  .navbar li {
+    margin: 5px 0; /* Reduce margin between items */
+  }
+
+  .navbar a {
+    font-size: 18px; /* Smaller font size for links */
+    padding: 10px 15px; /* Adjust padding for smaller screens */
+  }
+
+  a[href*="qanda"] {
+    left: 0; /* Reset left position */
+    font-size: 18px; /* Smaller font size */
+  }
 
     .container img{
       height: 320px;
@@ -281,19 +288,23 @@ hr{
       margin-right: -170px;
     }
 
-    .foot1{
-      flex-direction: column;
-     }
-     .con1{
-      font-size: 22px;
-      margin-top: 20px;
-      margin-bottom: 20px;
-      margin-left: 40px;
-     }
-     .icon{
-      top: -20px;
-      right: -250px;
-     }
+    .foot1 {
+      display: block; /* Stack the footer content vertically */
+      text-align: center;
+      margin-top: 20px; /* Add some space above the footer */
+    }
+    
+    .con1 {
+      margin-left: 0; /* Reset margins */
+      margin-right: 0;
+      margin-bottom: 20px; /* Space out footer items */
+    }
+    
+    .icon {
+      top: 0;
+      right: 0;
+      text-align: center; /* Center icons */
+    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
@@ -302,13 +313,35 @@ hr{
     overflow-x: hidden;
   }
 
-   .navbar a{
-    margin-left: -70px;
-    font-size: 13px;
-    }
-    a[href*="qanda"]{
-     left: 50px
-    }
+  .logo {
+    justify-content: center; /* Center the logo */
+    margin: 15px 0; /* Add some margin for spacing */
+  }
+
+  .logo img {
+    height: 100px; /* Adjust logo size for medium screens */
+    width: 100px; /* Adjust logo size for medium screens */
+  }
+
+  .navbar {
+   flex-wrap: nowrap;
+   justify-content: center;
+  }
+
+  .navbar li {
+    margin: 0 15px; /* Reduce side margin */
+  }
+
+  .navbar a {
+    font-size: 14px; /* Adjust font size for medium screens */
+    padding: 10px 0px; /* Keep padding consistent */
+  }
+
+  a[href*="qanda"] {
+    left: 0; /* Reset left position */
+    font-size: 16px;
+    width: 55px; /* Adjust font size */
+  }
     .container img{
       height: 320px;
     }
@@ -379,19 +412,20 @@ hr{
       height: 400px;
       margin-right: -170px;
     }
+    footer{
+      text-align: center;
+    }
 
     .foot1{
       flex-direction: column;
      }
      .con1{
       font-size: 22px;
-      margin-top: 20px;
-      margin-bottom: 20px;
+      margin-top: 50px;
+      margin-bottom: 25px;
       margin-left: 40px;
      }
      .icon{
-      top: -20px;
-      right: -250px;
       position: static;
      }
 }
@@ -404,7 +438,7 @@ hr{
 
    .navbar a{
     margin-left: -40px;
-    font-size: 20px;
+    font-size: 17px;
     }
     a[href*="qanda"]{
      left: 50px
@@ -490,14 +524,11 @@ hr{
       
      }
      .con1{
-      font-size: 22px;
-      margin-top: 20px;
-      margin-bottom: 20px;
+      margin-top: 50px;
+      margin-bottom: 25px;
       margin-left: 40px;
      }
      .icon{
-      top: -20px;
-      right: -250px;
       position: static; 
      }
 }
@@ -510,7 +541,7 @@ hr{
 
   .navbar a{
     margin-left: -40px;
-    font-size: 20px;
+    font-size: 23px;
     }
     a[href*="qanda"]{
      left: 50px
@@ -588,27 +619,24 @@ hr{
       height: 500px;
       margin-right: -170px;
     }
-    /* footer{
-      text-align: center;
-    }
-
-    .foot1{
-      flex-direction: column;
-      
-     } */
+ 
+    
      .con1{
       font-size: 22px;
       margin-top: 20px;
       margin-bottom: 20px;
-      margin-left: 40px;
+      margin-left: 100px;
+      margin-right: -70px;
      }
-     .icon{
-      display: flex;
-      top: 12px;
-     right: 5px; 
     
+
+     .icon {
+      position: relative;
+      margin-top: 375px;
+      display: flex;
+      top: 50px;
+      right: 25px;
      }
-     
 }
 
 @media only screen and (min-width: 1441px){
@@ -623,7 +651,7 @@ hr{
     
    
      .container .con{
-      bottom: 570px;
+      bottom: 650px;
        font-size: 3rem; 
       
     }
@@ -631,20 +659,15 @@ hr{
       font-size: 4rem;
     } 
 
-    .container1{
-      
-      align-items: center;
-    }
-
-     .cont1 h2{
+     /* .cont1 h2{
      font-size: 3rem;
-      margin-top: -400px;
     } 
     .cont1 p{
-      margin-left: -90px;
-      margin-right: -85px;
       font-size: 1.5rem;
 
+    }
+    .container1{
+      margin-top: -140px;
     }
 
     .container1 .con{
@@ -653,61 +676,74 @@ hr{
     .cont2 img{
       width: 700px;
       height: 700px;
-      margin-left: -25px;
-      margin-top: 15px;
-      margin-right: -15px;
-    }
+      margin-top: 120px;
+    } */
+
+  
+  .container1 {
+    display: flex;
+    justify-content: space-between; /* Ensure proper spacing between text and image */
+    align-items: flex-start; /* Align content from the top */
+    max-width: 1600px; /* Limit the width of the container */
+    margin-top: 100px;
+    margin-bottom: 0; /* Center the entire content */
+    position: static;
+  }
+
+  .cont1 {
+    flex: 1; /* Let the text container grow flexibly */
+    
+    padding: 20px; /* Reduce padding to fit the layout better */
+  }
+
+  .cont1 h2 {
+    font-size: 3.8rem; /* Reduce the size slightly for a better look */
+    margin-bottom: 20px; /* Add space between heading and text */
+  }
+
+  .cont1 p {
+    font-size: 1.8rem; /* Keep paragraph text readable */
+    line-height: 1.6; /* Improve readability with good line height */
+  }
+
+  .cont2 img {
+    max-width: 650px; /* Limit the image size to avoid stretching */
+    width: 100%; /* Make sure it stays responsive */
+    height: auto; /* Keep image proportions */
+  }
+
+
+
+
     .container3 h2{
-      font-size: 2rem;
-    margin-left: -60px;
-    margin-right: -180px;
-    margin-top: 45px;
+      font-size: 3rem;
     }
     .container3 ul{
-      margin-right: -115px;
-      margin-left: -75px;
-      font-size: 1.5rem;
+      
+      font-size: 2rem;
     }
     .container4 h2{
       font-size: 2rem;
-    margin-left: -60px;
-    margin-right: -180px;
-    margin-top: 45px;
     }
     .container4 ul{
-      margin-right: -115px;
-      margin-left: -75px;
+    
       font-size: 1.5rem;
-    }
-    .container4 #con1{
-      margin-top: 60px;
-    }
+    } 
+    
     .container4 #con2{
-      margin-top: 35px;
-      margin-left: -85px;
-    }
-    .container5 img{
-      margin-right: -170px;
+      margin-top: 90px;
+      
     }
     
-     /* .con1{
-      font-size: 22px;
-      margin-top: 20px;
-      margin-bottom: 20px;
-      margin-left: 40px;
-     } */
-     /* .icon{
-      top: -20px;
-      right: -250px;
-      position: static; 
-     } */
-      .icon{
-        display: flex;
-        /* bottom: 30px; */
-      }
-
     
+    .icon {
+      position: relative;
+      margin-top: 120px;
+      display: flex;
+      top: 300px;
+      right: 25px;
   
+     }
 }
 
 
