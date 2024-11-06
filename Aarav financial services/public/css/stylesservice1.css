@@ -1,0 +1,1213 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "poppins";
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    background-color: white;
+    display: block;
+}
+
+/* Navbar Styling */
+.navbar {
+  list-style: none;
+  padding: 10px 0px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 45px;
+  display: block;
+  font-size: 25px;
+}
+
+.navbar a:hover {
+  color: #6062d1;
+}
+
+/* Dropdown Styling */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content li {
+  width: 100%;
+ list-style-type: none;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 20px;
+  display: block;
+  text-align: left;
+
+}
+.dropdown-content a:hover {
+  background-color: black;
+}
+
+
+/* Hover effect to show dropdown */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+a[href*="qanda"]{
+  background-color: white;
+  color: black !important;
+  padding: 14px;
+  position: relative;
+  left: 410px;
+  font-size: 23px;
+  font-weight: bold;
+} 
+.box{
+    display: flex;
+}
+.box .box1{
+    margin: 70px 70px;
+}
+.box .box2{
+    font-size: 2rem;
+    margin: 100px 30px;
+    text-align: justify;
+}
+.box2 p{
+    color: rgb(134, 134, 134);
+}
+.box .box3{
+    font-size: 40px;
+    margin: 120px 85px;
+    text-align: justify;
+}
+.box3 p{
+    color: rgb(134, 134, 134);
+}
+.box .box4{
+    margin: 25px 90px;
+}
+.box1{
+    font-size: 35px;
+    margin: -170px 85px;
+    text-align: justify;
+    
+}
+.box1 p{
+color: rgb(134, 134, 134);
+}
+#repo{
+    margin-left: 85px;
+    margin-top: 300px;
+    font-size: 40px;
+    margin-bottom: -20px;
+}
+.rep2{
+    display: flex;
+}
+.rep2 img{
+    background-color: rgb(0 0 0/ 0.7);
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-top: 34px;
+    padding: 10px;
+   
+}
+.rep2 p{
+    font-size: 30px;
+    margin-left: 23px;
+    margin-top: 50px;
+}
+
+.rep2 span{
+    color: black;
+    font-weight: bold;
+}
+
+main .cont{
+    text-align: center;
+    color: #6C5CA8;
+    font-size: 4rem;
+    margin-top: 120px;
+}
+.box .con{
+    margin: 90px 65px;
+}
+
+.box .con1{
+    font-size: 2rem;
+    margin: 150px 8px;
+    text-align: justify;
+}
+.box .con2{
+    margin: 25px 65px;
+}
+
+.box .con3{
+    font-size: 2rem;
+    margin: 150px 8px;
+    text-align: justify;
+}
+.box .con4{
+    margin: 25px 65px;
+}
+
+.box .con5{
+    font-size: 2rem;
+    margin: 150px 8px;
+    text-align: justify;
+}
+.box .con6{
+    margin: 25px 65px;
+}
+
+.box .con7{
+    font-size: 2rem;
+    margin: 150px 8px;
+    text-align: justify;
+}
+.container{
+    margin: 75px 100px;
+    font-size: 38px;
+}
+.container #cont1{
+    margin-left: -55px;
+    margin-bottom: 15px;
+}
+.container1 h2{
+    text-align: center;
+    font-size: 43px;
+    
+}
+.container1 #cont2{
+    margin-top: 120px;
+    margin-bottom: 45px;
+    color: #6C5CA8;
+}
+.container1 img{
+    position: relative;
+    left: 1200px;
+    margin-top: 120px;
+    margin-bottom: 45px;
+}
+.container1 p{
+    text-align: center;
+    color: rgb(134, 134, 134);
+    font-size: 2.5rem;
+    margin-right: 500px;
+    margin-left: 670px;
+}
+.container1 span{
+    color: black;
+    font-weight: bold;
+}
+.container2 .rep{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 45px;
+    color: #6C5CA8;
+    font-size: 45px;
+
+}
+.container2 .rep1{
+    margin-left: -55px;
+    margin-bottom: 2px;
+    font-size: 40px;
+}
+.container2{
+    margin: 35px 180px;
+    font-size: 33px;
+}
+.container2 span{
+    color: black;
+    font-weight: bold;
+}
+hr{
+    margin-top: 170px;
+    
+}
+.foot1{
+    display: flex;
+    justify-content: space-around;
+}
+.con1{
+    font-size: 23px;
+    margin-top: 80px;
+    margin-bottom: -310px;
+    margin-left: 125px;
+
+}
+.icon{
+    position: relative;
+    top: 470px;
+    right: 110px;
+}
+.cont{
+    position: relative;
+    display: inline-block; 
+    border-bottom: 2px solid black;
+    padding-bottom: 5px; 
+    
+}
+
+.cont::after {
+    content: ""; 
+    position: absolute;
+    bottom: -4px;
+    left: 99%; 
+    margin-left: 4px; 
+    width: 9px; 
+    height: 8px; 
+    border-radius: 50%; 
+    background-color: black;
+}
+#cont2{
+  position: relative;
+  display: inline-block; 
+  border-bottom: 2px solid black;
+  padding-bottom: 5px; 
+  
+}
+
+#cont2::after {
+  content: ""; 
+  position: absolute;
+  bottom: -4px;
+  left: 99%; 
+  margin-left: 4px; 
+  width: 9px; 
+  height: 8px; 
+  border-radius: 50%; 
+  background-color: black;
+}
+.underline{
+  display: flex;
+  justify-content: center;
+}
+
+.rep{
+  position: relative;
+  display: inline-block; 
+  border-bottom: 2px solid black;
+  padding-bottom: 5px; 
+  
+}
+
+.rep::after {
+  content: ""; 
+  position: absolute;
+  bottom: -4px;
+  left: 99%; 
+  margin-left: 4px; 
+  width: 9px; 
+  height: 8px; 
+  border-radius: 50%; 
+  background-color: black;
+}
+.con1 a{
+  text-decoration: none;
+  color: black;
+}
+
+
+/* Responsive design */
+@media only screen and (max-width: 480px) {
+  body{
+    overflow-x: hidden;
+  }
+  .logo {
+    justify-content: center; /* Center the logo */
+    margin: 10px 0; /* Add some margin for spacing */
+  }
+
+  .logo img {
+    height: 80px; /* Reduce logo size */
+    width: 80px; /* Reduce logo size */
+  }
+
+  .navbar {
+    flex-direction: column; /* Stack nav items vertically */
+    align-items: center; /* Center items */
+    padding: 0; /* Remove padding */
+  }
+
+  .navbar li {
+    margin: 5px 0; /* Reduce margin between items */
+  }
+
+  .navbar a {
+    font-size: 18px; /* Smaller font size for links */
+    padding: 10px 15px; /* Adjust padding for smaller screens */
+  }
+
+  a[href*="qanda"] {
+    left: 0; /* Reset left position */
+    font-size: 18px; /* Smaller font size */
+  }
+
+  .box{
+    flex-direction: column;
+  }
+
+
+.box1 img {
+  width: 140%;
+  height: auto;
+  margin-top: -50px;
+  margin-left: -55px;          
+}
+  
+  .box .box2{
+        font-size: 1rem;
+    margin: -65px 6px;
+  }
+  .box .box3{
+    font-size: 1rem;
+    margin: 115px 5px;
+}
+.box4 img {
+  width: 140%;
+  height: auto;
+  margin-top: -50px;
+  margin-left: -55px;          
+}
+
+.box1{
+  font-size: 13px;
+    margin: 26px 2px;
+}
+#repo{
+  margin-left: 22px;
+    margin-top: 55px;
+    font-size: 22px;
+}
+.rep2{
+  flex-direction: column;
+}
+.rep2 img{
+  margin-left: 142px;
+    margin-top: 35px;
+    padding: 5px;
+}
+.rep2 p {
+  font-size: 24px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+main .cont{
+  font-size: 2rem;
+  margin-top: 55px;
+}
+.box .con {
+  margin: 155px 90px;
+}
+.con img {
+  width: 155%;
+  height: auto;
+  margin-top: -50px;
+  margin-left: -70px;          
+}
+.con2 img {
+  width: 130%;
+  height: auto;
+  margin-top: -50px;
+  margin-left: -45px;          
+}
+.con4 img {
+  width: 130%;
+  height: auto;
+  margin-top: -50px;
+  margin-left: -45px;          
+}
+.con6 img {
+  width: 130%;
+  height: auto;
+  margin-top: -50px;
+  margin-left: -45px;          
+}
+.box .con1 {
+  font-size: 1rem;
+  margin: 110px 5px;
+  margin-top: -150px;
+}
+.box .con3 {
+  font-size: 1rem;
+  margin: 110px 5px;
+  margin-top: -30px;
+}
+.box .con5 {
+  font-size: 1rem;
+  margin: 110px 5px;
+  margin-top: -25px;
+}
+.box .con7 {
+  font-size: 1rem;
+  margin: 110px 5px;
+  margin-top: -30px;
+}
+.container {
+  margin: -40px 37px;
+  font-size: 22px;
+  margin-left: 70px
+}
+.container1 #cont2 {
+  margin-top: 150px;
+}
+.container1 h2{
+  font-size: 30px;
+    margin-top: -30px;
+}
+.container1 img{
+left: 150px;
+margin-top: 55px;
+}
+.container1 p{
+  font-size: 1.5rem;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: -30px;
+}
+.container2 {
+  margin: 80px 35px;
+  font-size: 22px;
+  margin-right: 5px;
+}
+
+.container2 .rep1 {
+  margin-left: -27px;
+  margin-bottom: 25px;
+  font-size: 24px;
+  margin-right: -4px;
+
+}
+.container2 .rep{
+  margin-top: -5px;
+  font-size: 35px;
+  margin-left: -28px;
+}
+.rep::after{
+  left: 104%;
+}
+.cont::after{
+  left: 101%;
+}
+#cont2::after{
+  left: 150%;
+}
+hr{
+  margin-top: 90px;
+}
+.foot1 {
+  display: block; /* Stack the footer content vertically */
+  text-align: center;
+  margin-top: 20px; /* Add some space above the footer */
+}
+
+.con1 {
+  margin-left: 0; /* Reset margins */
+  margin-right: 0;
+  margin-bottom: 20px; /* Space out footer items */
+}
+
+.icon {
+  top: 0;
+  right: 0;
+  text-align: center; /* Center icons */
+}
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  body{
+    overflow-x: hidden;
+  }
+  .logo {
+    justify-content: center; /* Center the logo */
+    margin: 15px 0; /* Add some margin for spacing */
+  }
+
+  .logo img {
+    height: 100px; /* Adjust logo size for medium screens */
+    width: 100px; /* Adjust logo size for medium screens */
+  }
+
+  .navbar {
+   flex-wrap: nowrap;
+   justify-content: center;
+  }
+
+  .navbar li {
+    margin: 0 15px; /* Reduce side margin */
+  }
+
+  .navbar a {
+    font-size: 14px; /* Adjust font size for medium screens */
+    padding: 10px 0px; /* Keep padding consistent */
+  }
+
+  a[href*="qanda"] {
+    left: 0; /* Reset left position */
+    font-size: 16px;
+    width: 55px; /* Adjust font size */
+  }
+
+  .box{
+    flex-direction: column;
+  }
+
+
+.box1 img {
+  width: 115%;
+  height: auto;
+  margin-top: -50px;
+  margin-left: -40px;          
+}
+  
+  .box .box2{
+        font-size: 1rem;
+    margin: -65px 6px;
+  }
+  .box .box3{
+    font-size: 1rem;
+    margin: 115px 5px;
+}
+.box4 img {
+  width: 115%;
+  height: auto;
+  margin-top: -50px;
+  margin-left: -40px;          
+}
+
+.box1{
+  font-size: 13px;
+    margin: 26px 2px;
+}
+#repo{
+  margin-left: 22px;
+    margin-top: 55px;
+    font-size: 22px;
+}
+.rep2{
+  flex-direction: column;
+}
+.rep2 img{
+  display: block; /* Ensure the image is treated as a block element */
+  margin: 40px auto; /* Center the image horizontally */
+  width: 80px; /* Specify width */
+  height: 80px;
+}
+.rep2 p {
+  font-size: 24px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+main .cont{
+  font-size: 2rem;
+  margin-top: 55px;
+}
+.box .con {
+  margin: 155px 90px;
+}
+.con img {
+  width: 120%;
+  height: auto;
+  margin-top: -50px;
+  margin-left: -40px;          
+}
+.con2 img {
+  width: 110%;
+  height: auto;
+  margin-top: -50px;
+  margin-left: -15px;          
+}
+.con4 img {
+  width: 110%;
+  height: auto;
+  margin-top: -50px;
+  margin-left: -15px;          
+}
+.con6 img {
+  width: 110%;
+  height: auto;
+  margin-top: -50px;
+  margin-left: -15px;          
+}
+.box .con1 {
+  font-size: 1rem;
+  margin: 110px 5px;
+  margin-top: -150px;
+}
+.box .con3 {
+  font-size: 1rem;
+  margin: 110px 5px;
+  margin-top: -30px;
+}
+.box .con5 {
+  font-size: 1rem;
+  margin: 110px 5px;
+  margin-top: -25px;
+}
+.box .con7 {
+  font-size: 1rem;
+  margin: 110px 5px;
+  margin-top: -30px;
+}
+.container {
+  margin: -40px 37px;
+  font-size: 22px;
+  margin-left: 70px
+}
+.container1 #cont2 {
+  margin-top: 150px;
+}
+.container1 h2{
+  font-size: 30px;
+    margin-top: -30px;
+}
+.container1 img{
+  display: block; /* Ensure the image is treated as a block element */
+  margin: 40px auto; /* Center the image horizontally */
+  width: 100px; /* Specify width */
+  height: 100px;
+  left: 25px;
+}
+.container1 p{
+  font-size: 1.5rem;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: -30px;
+}
+.container2 {
+  margin: 80px 35px;
+  font-size: 22px;
+  margin-right: 5px;
+}
+
+.container2 .rep1 {
+  margin-left: -27px;
+  margin-bottom: 25px;
+  font-size: 24px;
+  margin-right: -4px;
+
+}
+.container2 .rep{
+  margin-top: -5px;
+  font-size: 35px;
+  margin-left: -28px;
+}
+.rep::after{
+  display: none;
+}
+.cont::after{
+  display: none;
+}
+#cont2::after{
+  display: none;
+}
+hr{
+  margin-top: 90px;
+}
+footer{
+  text-align: center;
+}
+
+.foot1{
+  flex-direction: column;
+ }
+ .con1{
+  font-size: 22px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  margin-left: 40px;
+ }
+ .icon{
+  position: static;
+ }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body{
+    overflow-x: hidden;
+  }
+  .navbar a{
+  margin-left: -40px;
+  font-size: 17px;
+  }
+  a[href*="qanda"]{
+   left: 50px;
+  }
+  .box{
+    flex-direction: column;
+  }
+
+
+.box1 img {
+  width: 110%;
+  height: auto;
+  margin-top: -50px;
+  margin-left: -40px;          
+}
+  
+  .box .box2{
+        font-size: 19px;
+    margin: -65px 6px;
+  }
+  .box .box3{
+    font-size: 19px;
+    margin: 115px 5px;
+}
+.box4 img {
+  width: 115%;
+  height: auto;
+  margin-top: -50px;
+  margin-left: -40px;          
+}
+
+.box1{
+  font-size: 19px;
+    margin: 26px 2px;
+}
+#repo{
+  margin-left: 22px;
+    margin-top: 55px;
+    font-size: 28px;
+}
+.rep2{
+  flex-direction: column;
+}
+.rep2 img{
+  display: block; /* Ensure the image is treated as a block element */
+  margin: 40px auto; /* Center the image horizontally */
+  width: 80px; /* Specify width */
+  height: 80px;
+}
+.rep2 p {
+  font-size: 24px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+main .cont{
+  font-size: 2rem;
+  margin-top: 55px;
+}
+.box .con {
+  margin: 155px 90px;
+}
+.con img {
+  width: 115%;
+  height: auto;
+  margin-top: -50px;
+  margin-left: -40px;          
+}
+.con2 img {
+  width: 105%;
+  height: auto;
+  margin-top: -50px;
+  margin-left: -15px;          
+}
+.con4 img {
+  width: 105%;
+  height: auto;
+  margin-top: -50px;
+  margin-left: -15px;          
+}
+.con6 img {
+  width: 105%;
+  height: auto;
+  margin-top: -50px;
+  margin-left: -15px;          
+}
+.box .con1 {
+  font-size: 19px;
+  margin: 110px 5px;
+  margin-top: -150px;
+}
+.box .con3 {
+  font-size: 19px;
+  margin: 110px 5px;
+  margin-top: -30px;
+}
+.box .con5 {
+  font-size: 19px;
+  margin: 110px 5px;
+  margin-top: -25px;
+}
+.box .con7 {
+  font-size: 19px;
+  margin: 110px 5px;
+  margin-top: -30px;
+}
+.container {
+  margin: -40px 37px;
+  font-size: 22px;
+  margin-left: 70px
+}
+.container1 #cont2 {
+  margin-top: 150px;
+}
+.container1 h2{
+  font-size: 30px;
+    margin-top: -30px;
+}
+.container1 img{
+  display: block; /* Ensure the image is treated as a block element */
+  margin: 40px auto; /* Center the image horizontally */
+  width: 100px; /* Specify width */
+  height: 100px;
+  left: 25px;
+}
+.container1 p{
+  font-size: 1.5rem;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: -30px;
+}
+.container2 {
+  margin: 80px 35px;
+  font-size: 22px;
+  margin-right: 5px;
+}
+
+.container2 .rep1 {
+  margin-left: -27px;
+  margin-bottom: 25px;
+  font-size: 24px;
+  margin-right: -4px;
+
+}
+.container2 .rep{
+  margin-top: -5px;
+  font-size: 35px;
+  margin-left: -28px;
+}
+.rep::after{
+  display: none;
+}
+.cont::after{
+  display: none;
+}
+#cont2::after{
+  display: none;
+}
+hr{
+  margin-top: 90px;
+}
+footer{
+  text-align: center;
+}
+
+.foot1{
+  flex-direction: column;
+  
+ }
+ .con1{
+  margin-top: 50px;
+  margin-bottom: 25px;
+  margin-left: 40px;
+ }
+ .icon{
+  position: static; 
+ }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  body{
+    overflow-x: hidden;
+  }
+  .navbar a{
+  margin-left: -40px;
+  font-size: 23px;
+  }
+  a[href*="qanda"]{
+   left: 50px;
+  }
+  .box{
+    flex-direction: column;
+  }
+
+
+.box1 img {
+  width: 106%;
+  height: auto;
+  margin-top: -50px;
+  margin-left: -40px;          
+}
+  
+  .box .box2{
+        font-size: 19px;
+    margin: -65px 6px;
+  }
+  .box .box3{
+    font-size: 19px;
+    margin: 115px 5px;
+}
+.box4 img {
+  width: 106%;
+  height: auto;
+  margin-top: -50px;
+  margin-left: -40px;          
+}
+
+.box1{
+  font-size: 19px;
+    margin: 26px 2px;
+}
+#repo{
+  margin-left: 22px;
+    margin-top: 55px;
+    font-size: 28px;
+}
+.rep2{
+  flex-direction: column;
+}
+.rep2 img{
+  display: block; /* Ensure the image is treated as a block element */
+  margin: 40px auto; /* Center the image horizontally */
+  width: 80px; /* Specify width */
+  height: 80px;
+}
+.rep2 p {
+  font-size: 24px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+main .cont{
+  font-size: 2rem;
+  margin-top: 55px;
+}
+.box .con {
+  margin: 155px 90px;
+}
+.con img {
+  display: block; /* Ensure the image is treated as a block element */
+  margin: 40px auto; /* Center the image horizontally */
+  width: 750px; /* Specify width */
+  height: 400px;   
+  margin-top: -45px;     
+}
+.con2 img {
+  display: block; /* Ensure the image is treated as a block element */
+  margin: 40px auto; /* Center the image horizontally */
+  width: 750px; /* Specify width */
+  height: 400px;   
+  margin-top: -45px;            
+}
+.con4 img {
+  display: block; /* Ensure the image is treated as a block element */
+  margin: 40px auto; /* Center the image horizontally */
+  width: 750px; /* Specify width */
+  height: 400px;   
+  margin-top: -45px;             
+}
+.con6 img {
+  display: block; /* Ensure the image is treated as a block element */
+  margin: 40px auto; /* Center the image horizontally */
+  width: 750px; /* Specify width */
+  height: 400px;   
+  margin-top: -45px;              
+}
+.box .con1 {
+  font-size: 21px;
+  margin: 110px 5px;
+  margin-top: -150px;
+}
+.box .con3 {
+  font-size: 21px;
+  margin: 110px 5px;
+  margin-top: -30px;
+}
+.box .con5 {
+  font-size: 21px;
+  margin: 110px 5px;
+  margin-top: -25px;
+}
+.box .con7 {
+  font-size: 21px;
+  margin: 110px 5px;
+  margin-top: -30px;
+}
+.container {
+  margin: -40px 37px;
+  font-size: 22px;
+  margin-left: 70px
+}
+.container1 #cont2 {
+  margin-top: 150px;
+}
+.container1 h2{
+  font-size: 30px;
+    margin-top: -30px;
+}
+.container1 img{
+  display: block; /* Ensure the image is treated as a block element */
+  margin: 40px auto; /* Center the image horizontally */
+  width: 100px; /* Specify width */
+  height: 100px;
+  left: 25px;
+}
+.container1 p{
+  font-size: 1.5rem;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: -30px;
+}
+.container2 {
+  margin: 80px 35px;
+  font-size: 22px;
+  margin-right: 5px;
+}
+
+.container2 .rep1 {
+  margin-left: -27px;
+  margin-bottom: 25px;
+  font-size: 24px;
+  margin-right: -4px;
+
+}
+.container2 .rep{
+  margin-top: -5px;
+  font-size: 35px;
+  margin-left: -28px;
+}
+.rep::after{
+  display: none;
+}
+.cont::after{
+  display: none;
+}
+#cont2::after{
+  display: none;
+}
+hr{
+  margin-top: 90px;
+}
+.con1{
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  margin-right: -70px;
+ }
+
+
+ .icon {
+  position: relative;
+  margin-top: 375px;
+  display: flex;
+  top: 50px;
+  right: 25px;
+ }
+}
+@media only screen and (min-width: 1441px) {
+  body{
+    overflow-x: hidden;
+  }
+ 
+  a[href*="qanda"]{
+   left: 200px;
+   }
+
+  /*.box{
+    flex-direction: column;
+  } */
+
+
+ .box1 img {
+  width: 700px;
+  height: 350px;
+  margin-left: -50px;
+           
+} 
+  
+   .box .box2{
+        font-size: 19px;
+    margin: 120px 4px;
+    margin-right: 25px;
+    margin-left: -35px;
+  } 
+  .box .box3{
+    font-size: 22px;
+    margin: 50px 20px;
+    
+}
+.box4 img {
+  width: 800px;
+  height: 450px;
+  margin-left: -85px;          
+  margin-top: -40px;
+}
+
+
+.box1{
+  font-size: 23px;
+    margin: 26px 2px;
+}
+#repo{
+  margin-left: 22px;
+    margin-top: 55px;
+    font-size: 35px;
+}
+.rep2 p{
+  font-size: 24px;
+}
+
+.box .con1 {
+  font-size: 21px;
+  
+}
+.box .con3 {
+  font-size: 21px;
+  
+}
+.box .con5 {
+  font-size: 21px;
+}
+.box .con7 {
+  font-size: 21px;
+}
+.container {
+  font-size: 25px;
+}
+
+.container1 img{
+  display: block; /* Ensure the image is treated as a block element */
+  margin: 40px auto; /* Center the image horizontally */
+  width: 100px; /* Specify width */
+  height: 100px;
+  left: 25px;
+}
+.container1 p{
+  font-size: 2rem;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: -30px;
+}
+.container2 {
+  font-size: 25px;
+}
+.icon {
+  position: relative;
+  margin-top: 120px;
+  display: flex;
+  top: 300px;
+  right: 25px;
+
+ }
+}

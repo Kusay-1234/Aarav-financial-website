@@ -1,0 +1,411 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "poppins";
+
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  background-color: white;
+  display: block;
+}
+
+/* Navbar Styling */
+.navbar {
+  list-style: none;
+  padding: 10px 0px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 45px;
+  display: block;
+  font-size: 25px;
+}
+
+.navbar a:hover {
+  color: #6062d1;
+}
+
+/* Dropdown Styling */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content li {
+  width: 100%;
+ list-style-type: none;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px 20px;
+  display: block;
+  text-align: left;
+
+}
+.dropdown-content a:hover {
+  background-color: black;
+}
+
+
+/* Hover effect to show dropdown */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+a[href*="qanda"] {
+  background-color: white;
+  color: black !important;
+  padding: 14px;
+  position: relative;
+  left: 410px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+}
+
+.container .cont1 {
+  margin: 100px 70px;
+}
+
+.cont2 h2 {
+  color: black;
+}
+
+.container .cont2 {
+  color: rgb(0 0 0 /0.7);
+  font-size: 35px;
+  margin-top: 190px;
+  margin-left: -40px;
+}
+
+.container1 {
+  margin-top: 25px;
+  margin-left: 85px;
+  position: absolute;
+  top: 800px;
+
+}
+
+.container1 h2 {
+  font-size: 3rem;
+}
+
+.container1 h3 {
+  font-size: 35px;
+}
+
+.container1 p {
+  color: rgb(0 0 0 /0.7);
+  font-size: 35px;
+  margin-right: 200px;
+}
+
+.container1 ul {
+  margin-bottom: 90px;
+  color: rgb(0 0 0 /0.7);
+  font-size: 35px;
+  margin-left: 70px;
+}
+
+main img {
+  position: relative;
+  top: -62px;
+  width: 2000px;
+  left: 526px;
+  height: 3000px;
+}
+
+hr {
+  margin-top: 190px;
+
+}
+
+.foot1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.con1 {
+  font-size: 23px;
+  margin-top: 80px;
+  margin-bottom: -310px;
+  margin-left: 125px;
+
+}
+
+.icon {
+  position: relative;
+  top: 470px;
+  right: 110px;
+}
+
+.con1 a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 480px) {
+
+  body{
+    overflow-x: hidden;
+  }
+  .logo {
+    justify-content: center; /* Center the logo */
+    margin: 10px 0; /* Add some margin for spacing */
+  }
+
+  .logo img {
+    height: 80px; /* Reduce logo size */
+    width: 80px; /* Reduce logo size */
+  }
+
+  .navbar {
+    flex-direction: column; /* Stack nav items vertically */
+    align-items: center; /* Center items */
+    padding: 0; /* Remove padding */
+  }
+
+  .navbar li {
+    margin: 5px 0; /* Reduce margin between items */
+  }
+
+  .navbar a {
+    font-size: 18px; /* Smaller font size for links */
+    padding: 10px 15px; /* Adjust padding for smaller screens */
+  }
+
+  a[href*="qanda"] {
+    left: 0; /* Reset left position */
+    font-size: 18px; /* Smaller font size */
+  }
+
+  .container{
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .container .cont1 img {
+    width: 140%;
+    height: auto;
+    margin-top: -65px;
+    margin-left: -50px
+  }
+  .container .cont2{
+    font-size: 19px;
+    text-align: justify;
+  }
+  .container1 {
+    
+      margin-top: 10px; /* Adjust to avoid large gaps */
+      margin-left: 5px; /* Smaller margin for narrow screens */
+      position: relative; /* Keep positioning flexible */
+      top: auto; /* Remove the fixed top */
+    }
+  
+    .container1 h2, .container1 h3 {
+      font-size: 1.5rem; /* Smaller headings */
+    }
+  
+    .container1 p, .container1 ul {
+      font-size: 18px; /* Smaller font for paragraphs and lists */
+      margin-right: 10px; /* Reduce margin for smaller screens */
+      margin-left: 10px; /* Adjust list margin */
+    }
+  
+    .foot1 {
+      display: block; /* Stack the footer content vertically */
+      text-align: center;
+      margin-top: 20px; /* Add some space above the footer */
+    }
+  
+    .con1 {
+      margin-left: 0; /* Reset margins */
+      margin-right: 0;
+      margin-bottom: 20px; /* Space out footer items */
+    }
+  
+    .icon {
+      top: 0;
+      right: 0;
+      text-align: center; /* Center icons */
+    }
+  
+    hr {
+      margin-top: 50px; /* Reduce space for small screens */
+    }
+  }
+  
+
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  body{
+    overflow-x: hidden;
+  }
+  .logo {
+    justify-content: center; /* Center the logo */
+    margin: 15px 0; /* Add some margin for spacing */
+  }
+
+  .logo img {
+    height: 100px; /* Adjust logo size for medium screens */
+    width: 100px; /* Adjust logo size for medium screens */
+  }
+
+  .navbar {
+   flex-wrap: nowrap;
+   justify-content: center;
+  }
+
+  .navbar li {
+    margin: 0 15px; /* Reduce side margin */
+  }
+
+  .navbar a {
+    font-size: 14px; /* Adjust font size for medium screens */
+    padding: 10px 0px; /* Keep padding consistent */
+  }
+
+  a[href*="qanda"] {
+    left: 0; /* Reset left position */
+    font-size: 16px;
+    width: 55px; /* Adjust font size */
+  }
+  .container{
+    flex-direction: column;
+  }
+  .container .cont1 img {
+    width: 110%;
+    height: auto;
+    margin-top: -65px;
+    margin-left: -25px
+  }
+
+    .container1 {
+      margin-top: 20px;
+      margin-left: 20px;
+      position: relative;
+      top: auto;
+    }
+  
+    .container1 h2, .container1 h3 {
+      font-size: 2rem; /* Medium font size */
+    }
+  
+    .container1 p, .container1 ul {
+      font-size: 22px; /* Adjust for better readability */
+      margin-right: 50px; /* Maintain layout alignment */
+      margin-left: 30px;
+    }
+  
+    footer{
+      text-align: center;
+    }
+
+    .foot1{
+      flex-direction: column;
+     }
+     .con1{
+      font-size: 22px;
+      margin-top: 50px;
+      margin-bottom: 25px;
+      margin-left: 40px;
+     }
+     .icon{
+      position: static;
+     }
+  
+    hr {
+      margin-top: 100px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body{
+      overflow-x: hidden;
+    }
+    main img{
+      display: none;
+    }
+    .navbar a{
+      margin-left: -40px;
+      font-size: 17px;
+      }
+      a[href*="qanda"]{
+       left: 50px
+      }
+    .container{
+      flex-direction: column;
+    }
+
+    .container .cont1 img {
+      width: 110%;
+      height: auto;
+      margin-top: -65px;
+      margin-left: -50px
+    }
+    .container1 {
+      margin-top: 25px;
+      margin-left: 85px;
+      position: absolute;
+      top: 800px; /* Fixed positioning for larger screens */
+    }
+  
+    .container1 h2 {
+      font-size: 3rem;
+    }
+  
+    .container1 h3 {
+      font-size: 35px;
+    }
+  
+    .container1 p, .container1 ul {
+      font-size: 35px;
+      margin-right: 200px;
+      margin-left: 70px;
+    }
+  
+    footer{
+      text-align: center;
+    }
+
+    .foot1{
+      flex-direction: column;
+      
+     }
+     .con1{
+      margin-top: 50px;
+      margin-bottom: 25px;
+      margin-left: 40px;
+     }
+     .icon{
+      position: static; 
+     }
+  
+    hr {
+      margin-top: 190px;
+    }
+  }
+  

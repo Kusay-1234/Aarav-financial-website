@@ -1,0 +1,957 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "poppins";
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    background-color: white;
+    display: block;
+}
+
+/* Navbar Styling */
+.navbar {
+  list-style: none;
+  padding: 10px 0px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.navbar li {
+  position: relative;
+  margin: 0 40px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 0px;
+  display: inline-block;
+  font-size: 25px;
+  text-align: center;
+}
+
+.navbar a:hover {
+  color: #6062d1;
+}
+
+/* Dropdown Styling */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content li {
+  width: 100%;
+ list-style-type: none;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px 20px;
+  display: block;
+  text-align: left;
+
+}
+.dropdown-content a:hover {
+  background-color: black;
+}
+
+
+/* Hover effect to show dropdown */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+a[href*="qanda"]{
+  background-color: white;
+  color: black !important;
+  padding: 14px;
+  position: relative;
+  left: 410px;
+  font-size: 23px;
+  font-weight: bold;
+} 
+
+
+.logo1{
+  display: flex;
+  justify-content: center;
+}
+
+.box1 p {
+    text-align: center;
+    font-size: 3.5rem;
+    color: rgb(134, 134, 134);
+    margin-left: 250px;
+    margin-right: 200px;
+}
+
+.box2 p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+.btn1{
+    position: relative;
+    left: 1100px;
+    color: white;
+    background-color: rgb(31, 138, 7);
+    border-radius: 50px;
+    border: 2px solid white;
+    font-size: 40px;
+    padding: 10px 70px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.contact-container {
+  display: flex; /* Use flexbox to align items */
+  justify-content: space-between; /* Space between sections */
+  align-items: flex-start; /* Align items at the start */
+  margin-top: 130px;
+  margin-left: 180px;
+  margin-right: 500px;
+  font-size: 2rem;
+  padding: 20px;
+}
+
+.contact-info {
+  flex: 1; /* Allow it to grow */
+  margin-right: 20px; /* Space between contact and form */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column; /* Stack form elements vertically */
+  width: 250px;
+ /* Set a width for the form */
+}
+
+
+.form-container input {
+  margin-bottom: 20px; /* Space between inputs */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 550px;
+  font-size: 2rem;
+}
+
+.form-container button {
+  padding: 10px;
+  background-color: black; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 300px;
+  font-size: 2rem;
+}
+
+
+.follow-us {
+  display: flex;
+  flex-direction: column; /* Stack links vertically */
+  margin-right: 330px;
+  margin-top: 22px; /* Space between form and follow us */
+}
+
+.follow-us h3 {
+  margin-bottom: -12px; 
+  margin-left: 4px;/* Space below the heading */
+}
+
+.follow-us a {
+  color: black; /* Match the button color */
+  text-decoration: none;
+  margin-right: 5px; /* Space between links */
+}
+
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+
+hr{
+  text-align: center;
+   margin-top: 100px;
+   margin-bottom: 20px ;
+  
+}
+
+
+/* Responsive design for screens with a max width of 480px */
+@media only screen and (max-width: 480px) {
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .logo {
+    justify-content: center; /* Center the logo */
+    margin: 10px 0; /* Add some margin for spacing */
+  }
+
+  .logo img {
+    height: 80px; /* Reduce logo size */
+    width: 80px; /* Reduce logo size */
+  }
+
+  .navbar {
+    flex-direction: column; /* Stack nav items vertically */
+    align-items: center; /* Center items */
+    padding: 0; /* Remove padding */
+  }
+
+  .navbar li {
+    margin: 5px 0; /* Reduce margin between items */
+  }
+
+  .navbar a {
+    font-size: 18px; /* Smaller font size for links */
+    padding: 10px 15px; /* Adjust padding for smaller screens */
+  }
+
+  a[href*="qanda"] {
+    left: 0; /* Reset left position */
+    font-size: 18px; /* Smaller font size */
+  }
+
+  
+
+  /* Box1 paragraph adjustments */
+  .box1 p {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.5rem; /* Adjusted font size */
+  }
+
+  /* Button adjustments */
+  .btn1 {
+    margin-top: 20px;
+    left: 15px; /* Adjusted positioning */
+    padding: 10px 40px; /* Adjusted padding */
+    font-size: 1.8rem; /* Slightly smaller font */
+  }
+
+  /* Contact container adjustments */
+  .contact-container {
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.4rem; /* Adjust font size for readability */
+    padding: 15px;
+    margin-top: 10px;
+  }
+
+  .contact-info {
+    margin-left: 0;
+    margin-top: 20px; /* Added margin to prevent cutting */
+  }
+
+  
+  /* Adjustments for .info-item (email and icon) */
+  .info-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Make sure the icon and email are aligned to the left */
+    flex-wrap: wrap; /* Allow content to wrap if needed */
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  /* Icon inside info-item */
+  .info-item img {
+    width: 20px; /* Adjust size for the email icon */
+    height: 20px;
+    margin-right: 10px; /* Space between the icon and the email text */
+    flex-shrink: 0; /* Ensure the icon doesn't shrink */
+  }
+
+  /* Email text inside info-item */
+  .info-item a {
+    display: inline-block;
+    max-width: calc(100% - 30px); /* Ensure the email text takes full available width minus icon space */
+    word-break: break-all; /* Break long email addresses if necessary */
+  }
+
+  /* Follow us section adjustments */
+  .follow-us {
+    flex-direction: row;
+    justify-content: center; /* Center align follow us section */
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+
+  .follow-us h3 {
+    margin-top: 15px;
+    font-size: 1.3rem; /* Adjusted font size */
+  }
+
+  .follow-us a {
+    margin: 5px 10px; /* Reduce the spacing between icons and links */
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .follow-us img {
+    width: 40px; /* Adjust size for Instagram or any social icon */
+    height: 40px;
+    margin-right: 8px; /* Space between the icon and the link text */
+    flex-shrink: 0; /* Ensure icon doesn't shrink */
+  }
+
+  /* Form container adjustments */
+  .form-container {
+    margin-top: 30px;
+    width: 90%; /* Slightly reduced width for padding on small screens */
+    margin-left: auto;
+    margin-right: auto; /* Center align the form */
+  }
+
+  .form-container input {
+    width: 100%; /* Make input fields take full width */
+    padding: 10px; /* Adjust padding */
+    font-size: 1.2rem; /* Adjust font size */
+  }
+
+  .form-container button {
+    width: 100%; /* Full width button */
+    padding: 12px; /* Adjust padding */
+    font-size: 1.5rem; /* Adjusted font size */
+    margin-left: 0;
+  }
+
+  /* Logo1 adjustments */
+  .logo1 {
+    display: flex;
+    justify-content: center; /* Center the logo */
+    margin-top: 20px; /* Add margin to avoid cutting */
+  }
+
+  .logo1 img {
+    width: 100%;
+    height: 100%; /* Set responsive width */
+    max-width: 300px; /* Prevent logo from being too large */
+  }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .logo {
+    justify-content: center; /* Center the logo */
+    margin: 15px 0; /* Add some margin for spacing */
+  }
+
+  .logo img {
+    height: 100px; /* Adjust logo size for medium screens */
+    width: 100px; /* Adjust logo size for medium screens */
+  }
+
+  .navbar {
+   flex-wrap: nowrap;
+   justify-content: center;
+  }
+
+  .navbar li {
+    margin: 0 15px; /* Reduce side margin */
+  }
+
+  .navbar a {
+    font-size: 14px; /* Adjust font size for medium screens */
+    padding: 10px 0px; /* Keep padding consistent */
+  }
+
+  a[href*="qanda"] {
+    left: 0; /* Reset left position */
+    font-size: 16px;
+    width: 55px; /* Adjust font size */
+  }
+
+  /* Box1 paragraph adjustments */
+  .box1 p {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.5rem; /* Adjusted font size */
+  }
+
+  .button-center{
+    display: flex;
+    justify-content: center;
+  }
+
+
+ 
+  /* Button adjustments */
+  .btn1 {
+  
+    margin-top: 20px;
+    left: 15px; /* Adjusted positioning */
+    padding: 10px 40px; /* Adjusted padding */
+    font-size: 1.8rem; /* Slightly smaller font */
+  }
+
+  /* Contact container adjustments */
+  .contact-container {
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.4rem; /* Adjust font size for readability */
+    padding: 15px;
+    margin-top: 10px;
+  }
+
+  .contact-info {
+    margin-left: 0;
+    margin-top: 20px; /* Added margin to prevent cutting */
+
+  }
+
+  
+  /* Adjustments for .info-item (email and icon) */
+  .info-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Make sure the icon and email are aligned to the left */
+    flex-wrap: wrap; /* Allow content to wrap if needed */
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  /* Icon inside info-item */
+  .info-item img {
+    width: 20px; /* Adjust size for the email icon */
+    height: 20px;
+    margin-right: 10px; /* Space between the icon and the email text */
+    flex-shrink: 0; /* Ensure the icon doesn't shrink */
+  }
+
+  /* Email text inside info-item */
+  .info-item a {
+    display: inline-block;
+    max-width: calc(100% - 30px); /* Ensure the email text takes full available width minus icon space */
+    word-break: break-all; /* Break long email addresses if necessary */
+  }
+
+  /* Follow us section adjustments */
+  .follow-us {
+    flex-direction: column;
+    justify-content: center; /* Center align follow us section */
+    margin-top: 30px;
+    flex-wrap: wrap;
+   
+  }
+
+  .follow-us h3 {
+    margin-top: 15px;
+    font-size: 1.3rem; /* Adjusted font size */
+  }
+
+  .follow-us a {
+    margin: 5px 10px; /* Reduce the spacing between icons and links */
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .follow-us img {
+    width: 40px; /* Adjust size for Instagram or any social icon */
+    height: 40px;
+    margin-right: 8px; /* Space between the icon and the link text */
+    flex-shrink: 0; /* Ensure icon doesn't shrink */
+  }
+
+  /* Form container adjustments */
+  .form-container {
+    margin-top: 30px;
+    width: 90%; /* Slightly reduced width for padding on small screens */
+    margin-left: auto;
+    margin-right: auto; /* Center align the form */
+  }
+
+  .form-container input {
+    width: 100%; /* Make input fields take full width */
+    padding: 10px; /* Adjust padding */
+    font-size: 1.2rem; /* Adjust font size */
+  }
+
+  .form-container button {
+    width: 100%; /* Full width button */
+    padding: 12px; /* Adjust padding */
+    font-size: 1.5rem; /* Adjusted font size */
+    margin-left: 0;
+  }
+
+  /* Logo1 adjustments */
+  .logo1 {
+    display: flex;
+    justify-content: center; /* Center the logo */
+    margin-top: 20px; /* Add margin to avoid cutting */
+  }
+
+  .logo1 img {
+    width: 100%;
+    height: 100%; /* Set responsive width */
+    max-width: 300px; /* Prevent logo from being too large */
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .navbar a{
+    margin-left: -40px;
+    font-size: 17px;
+    }
+    a[href*="qanda"]{
+     left: 50px
+    }
+  
+
+  /* Box1 paragraph adjustments */
+  .box1 p {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.5rem; /* Adjusted font size */
+  }
+
+  .button-center{
+    display: flex;
+    justify-content: center;
+  }
+
+
+ 
+  /* Button adjustments */
+  .btn1 {
+  
+    margin-top: 20px;
+    left: 15px; /* Adjusted positioning */
+    padding: 10px 40px; /* Adjusted padding */
+    font-size: 1.8rem; /* Slightly smaller font */
+  }
+
+  /* Contact container adjustments */
+  .contact-container {
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.4rem; /* Adjust font size for readability */
+    padding: 15px;
+    margin-top: 10px;
+  }
+
+  .contact-info {
+    margin-left: 0;
+    margin-top: 20px; /* Added margin to prevent cutting */
+
+  }
+
+  
+  /* Adjustments for .info-item (email and icon) */
+  .info-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Make sure the icon and email are aligned to the left */
+    flex-wrap: wrap; /* Allow content to wrap if needed */
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  /* Icon inside info-item */
+  .info-item img {
+    width: 20px; /* Adjust size for the email icon */
+    height: 20px;
+    margin-right: 10px; /* Space between the icon and the email text */
+    flex-shrink: 0; /* Ensure the icon doesn't shrink */
+  }
+
+  /* Email text inside info-item */
+  .info-item a {
+    display: inline-block;
+    max-width: calc(100% - 30px); /* Ensure the email text takes full available width minus icon space */
+    word-break: break-all; /* Break long email addresses if necessary */
+  }
+
+  /* Follow us section adjustments */
+  .follow-us {
+    flex-direction: column;
+    justify-content: center; /* Center align follow us section */
+    margin-top: 30px;
+    flex-wrap: wrap;
+   
+  }
+
+  .follow-us h3 {
+    margin-top: 15px;
+    font-size: 1.3rem; /* Adjusted font size */
+  }
+
+  .follow-us a {
+    margin: 5px 10px; /* Reduce the spacing between icons and links */
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .follow-us img {
+    width: 40px; /* Adjust size for Instagram or any social icon */
+    height: 40px;
+    margin-right: 8px; /* Space between the icon and the link text */
+    flex-shrink: 0; /* Ensure icon doesn't shrink */
+  }
+
+  /* Form container adjustments */
+  .form-container {
+    margin-top: 30px;
+    width: 90%; /* Slightly reduced width for padding on small screens */
+    margin-left: auto;
+    margin-right: auto; /* Center align the form */
+  }
+
+  .form-container input {
+    width: 100%; /* Make input fields take full width */
+    padding: 10px; /* Adjust padding */
+    font-size: 1.2rem; /* Adjust font size */
+  }
+
+  .form-container button {
+    width: 100%; /* Full width button */
+    padding: 12px; /* Adjust padding */
+    font-size: 1.5rem; /* Adjusted font size */
+    margin-left: 0;
+  }
+
+  /* Logo1 adjustments */
+  .logo1 {
+    display: flex;
+    justify-content: center; /* Center the logo */
+    margin-top: 20px; /* Add margin to avoid cutting */
+  }
+
+  .logo1 img {
+    width: 100%;
+    height: 100%; /* Set responsive width */
+    max-width: 300px; /* Prevent logo from being too large */
+  }
+}
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .navbar a{
+    margin-left: -40px;
+    font-size: 23px;
+    }
+    a[href*="qanda"]{
+     left: 50px
+    }
+  
+
+  /* Box1 paragraph adjustments */
+  .box1 p {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.5rem; /* Adjusted font size */
+  }
+
+  .button-center{
+    display: flex;
+    justify-content: center;
+  }
+
+
+ 
+  /* Button adjustments */
+  .btn1 {
+  
+    margin-top: 20px;
+    left: 15px; /* Adjusted positioning */
+    padding: 10px 40px; /* Adjusted padding */
+    font-size: 1.8rem; /* Slightly smaller font */
+  }
+
+  /* Contact container adjustments */
+  .contact-container {
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.4rem; /* Adjust font size for readability */
+    padding: 15px;
+    margin-top: 10px;
+  }
+
+  .contact-info {
+    margin-left: 0;
+    margin-top: 20px; /* Added margin to prevent cutting */
+
+  }
+
+  
+  /* Adjustments for .info-item (email and icon) */
+  .info-item {
+    display: flex;
+    align-items: center;
+    
+    flex-wrap: wrap; /* Allow content to wrap if needed */
+    margin: 10px -15px;
+    width: 100%;
+  }
+
+  /* Icon inside info-item */
+  .info-item img {
+    width: 20px; /* Adjust size for the email icon */
+    height: 20px;
+    margin-right: 10px; /* Space between the icon and the email text */
+    flex-shrink: 0; /* Ensure the icon doesn't shrink */
+  }
+
+  /* Email text inside info-item */
+  .info-item a {
+    display: inline-block;
+    max-width: calc(100% - 30px); /* Ensure the email text takes full available width minus icon space */
+    
+  }
+
+  /* Follow us section adjustments */
+  .follow-us {
+    flex-direction: row;
+    justify-content: center; /* Center align follow us section */
+    margin-top: 30px;
+    flex-wrap: wrap;
+    position: relative;
+    left: 40px;
+   
+  }
+
+  .follow-us h3 {
+    margin-top: 15px;
+    font-size: 1.3rem; /* Adjusted font size */
+  }
+
+  .follow-us a {
+    margin: 5px 10px; /* Reduce the spacing between icons and links */
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .follow-us img {
+    width: 40px; /* Adjust size for Instagram or any social icon */
+    height: 40px;
+    margin-right: 8px; /* Space between the icon and the link text */
+    flex-shrink: 0; /* Ensure icon doesn't shrink */
+  }
+
+  /* Form container adjustments */
+  .form-container {
+    margin-top: 30px;
+    width: 90%; /* Slightly reduced width for padding on small screens */
+    margin-left: -255px;
+    margin-right: auto; /* Center align the form */
+  }
+
+  .form-container input {
+    width: 100%; /* Make input fields take full width */
+    padding: 10px; /* Adjust padding */
+    font-size: 1.2rem; /* Adjust font size */
+  }
+
+  .form-container button {
+    width: 100%; /* Full width button */
+    padding: 12px; /* Adjust padding */
+    font-size: 1.5rem; /* Adjusted font size */
+    margin-left: 0;
+  }
+
+  /* Logo1 adjustments */
+  .logo1 {
+    display: flex;
+    justify-content: center; /* Center the logo */
+    margin-top: 20px; /* Add margin to avoid cutting */
+  }
+
+  .logo1 img {
+    width: 100%;
+    height: 100%; /* Set responsive width */
+    max-width: 300px; /* Prevent logo from being too large */
+  }
+}
+
+
+@media only screen and (min-width: 1441px){
+
+  body{
+    overflow-x: hidden;
+  }
+
+  
+    a[href*="qanda"]{
+     left: 200px
+    }
+  
+
+  /* Box1 paragraph adjustments */
+  .box1 p {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.5rem; /* Adjusted font size */
+  }
+
+  .button-center{
+    display: flex;
+    justify-content: center;
+  }
+
+
+ 
+  /* Button adjustments */
+  .btn1 {
+  
+    margin-top: 20px;
+    left: 15px; /* Adjusted positioning */
+    padding: 10px 40px; /* Adjusted padding */
+    font-size: 1.8rem; /* Slightly smaller font */
+  }
+
+  /* Contact container adjustments */
+  .contact-container {
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.4rem; /* Adjust font size for readability */
+    padding: 15px;
+    margin-top: 10px;
+  }
+
+  .contact-info {
+    margin-left: 0;
+    margin-top: 20px; /* Added margin to prevent cutting */
+
+  }
+
+  
+  /* Adjustments for .info-item (email and icon) */
+  .info-item {
+    display: flex;
+    align-items: center;
+    
+    flex-wrap: wrap; /* Allow content to wrap if needed */
+    margin: 10px -15px;
+    width: 100%;
+  }
+
+  /* Icon inside info-item */
+  .info-item img {
+    width: 20px; /* Adjust size for the email icon */
+    height: 20px;
+    margin-right: 10px; /* Space between the icon and the email text */
+    flex-shrink: 0; /* Ensure the icon doesn't shrink */
+  }
+
+  /* Email text inside info-item */
+  .info-item a {
+    display: inline-block;
+    max-width: calc(100% - 30px); /* Ensure the email text takes full available width minus icon space */
+    
+  }
+
+  /* Follow us section adjustments */
+  .follow-us {
+    flex-direction: column;
+    justify-content: center; /* Center align follow us section */
+    margin-top: 30px;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 50%; /* Adjust to move further to the right as screen expands */
+    transform: translateX(-50%);
+    
+    
+   
+  }
+
+  .follow-us h3 {
+    margin-top: 15px;
+    font-size: 1.3rem; /* Adjusted font size */
+  }
+
+  .follow-us a {
+    margin: 5px 10px; /* Reduce the spacing between icons and links */
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .follow-us img {
+    width: 40px; /* Adjust size for Instagram or any social icon */
+    height: 40px;
+    margin-right: 8px; /* Space between the icon and the link text */
+    flex-shrink: 0; /* Ensure icon doesn't shrink */
+  }
+
+  /* Form container adjustments */
+  .form-container {
+    margin-top: 30px;
+    margin-left: -110px;
+    margin-right: 250px; /* Center align the form */
+  }
+
+  .form-container input {
+    width: 480px;
+    padding: 10px; /* Adjust padding */
+    font-size: 1.2rem; /* Adjust font size */
+  }
+
+  .form-container button {
+    width: 100%; /* Full width button */
+    padding: 12px; /* Adjust padding */
+    font-size: 1.5rem; /* Adjusted font size */
+    margin-left: 0;
+  }
+
+  /* Logo1 adjustments */
+  .logo1 {
+    display: flex;
+    justify-content: center; /* Center the logo */
+    margin-top: 20px; /* Add margin to avoid cutting */
+  }
+
+  .logo1 img {
+    width: 100%;
+    height: 100%; /* Set responsive width */
+    max-width: 300px; /* Prevent logo from being too large */
+  }
+}

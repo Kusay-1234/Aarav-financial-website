@@ -1,0 +1,1493 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "poppins";
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+ .logo img {
+    background-color: white;
+    display: block;
+} 
+
+
+/* Navbar Styling */
+.navbar {
+  list-style: none;
+  padding: 10px 0px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.navbar li {
+  position: relative;
+  margin: 0 40px;
+}
+
+.navbar a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 12px 20px;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.navbar a:hover {
+  color: #6062d1;
+}
+
+/* Dropdown Styling */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content li {
+  width: 100%;
+ list-style-type: none;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px 20px;
+  display: block;
+  text-align: left;
+
+}
+.dropdown-content a:hover {
+  background-color: black;
+}
+
+
+/* Hover effect to show dropdown */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+a[href*="qanda"]{
+  background-color: white;
+  color: black !important;
+  padding: 14px;
+  position: relative;
+  left: 410px;
+  font-size: 23px;
+  font-weight: bold;
+} 
+
+.box {
+    display: flex;
+    /* background-color: rgb(103, 38, 176); */
+    background: linear-gradient(to left, #4251A2, #180F38 );
+    padding: 0px;
+    height: 850px;
+}
+
+.box1 h2 {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 5px;
+    margin-left: 55px;
+}
+
+.box1 h3 {
+    color: white;
+    font-size: 2em;
+    margin-bottom: -20px;
+    margin-top: -20px;
+    margin-left: 55px;
+
+}
+
+.box1 p {
+    color: white;
+    margin-top: 25px;
+    font-size: 16px;
+    margin-left: 55px;
+
+}
+
+.btn {
+  display: inline-block; /* Ensure it behaves like a button */
+  padding: 10px 100px;
+  margin: 33px 55px;
+  color: white;
+  background: linear-gradient(to right, #6E5CA8, #5354A3);
+  font-size: 22px;
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  border: none; /* No border */
+}
+
+
+.box1 {
+    margin: 16px 36px;
+    font-size: 29px;
+    align-self: center;
+}
+
+.box2 {
+    margin: 130px 18px;
+    padding: 20px 20px;
+}
+.container{
+    display: flex;
+    background-color: rgb(230, 228, 228);
+    height: 400px;
+    color: #6C5CA8;
+   
+
+}
+.cont{
+    position: relative;
+    left: 200px;
+    top: 65px
+
+}
+.cont1{
+    position: relative;
+    left: 180px;
+    top: 75px;
+    margin: -15px 8px;
+  
+}
+.cont1 h2{
+    font-size: 5rem;
+}
+.cont1 p{
+    font-size: 4rem;
+}
+.container2{
+    display: flex;
+   
+}
+.cont3{
+    font-size: 48px;
+    color: #6C5CA8;
+    margin: 200px 30px;
+    text-align: justify;
+
+   
+}
+.cont2 img{
+    margin: 125px 60px;
+  
+}
+.container3{
+  background: linear-gradient(to left, #6E5CA8, #5354A3);
+    height: 300px;
+  
+}
+
+.emilogo {
+  height: 150px;
+  width: 270px; /* Adjusted width */
+  background-color: black;
+  margin: 85px 55px; /* Centering */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0; /* No extra padding needed */
+  position: relative;
+  top: 65px;
+}
+
+.emilogo a {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+  display: block;
+  height: 100%; /* Make the link fill the box */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.emilogo a img {
+  margin-bottom: 10px;
+}
+
+.kbox{
+    display: flex;
+    justify-content: center;
+}
+.container4 #con{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 95px;
+    color: #6C5CA8;
+}
+.bord{
+    border: 5px solid black;
+    width: 400px;
+    margin-left: 1030px;
+    margin-top: 23px;
+    border-radius: 35px;
+}
+.box3{
+    border: 2px solid white;
+    background-color: white;
+    color: grey;
+    padding: 80px 60px;
+    margin: 140px 30px;
+     font-size: 20px;
+     height: 400px;
+     width: 300px;
+     text-align: center;
+     box-shadow: 10px 10px 22px 20px rgb(187, 179, 179);
+}
+.container5 #con1{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 65px;
+    color: #6C5CA8;
+}
+.box4{
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 200px;
+    width: 300px;
+    font-size: 24px;
+    color: grey;
+    text-align: center;
+    background-color: white;
+    margin: 42px;
+    margin-top: 75px;
+    padding: 100px 80px;
+
+}
+.kbox1{
+    display: flex;
+    justify-content: center;
+}
+.kbox2{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    margin-top: 150px;
+
+}
+.foot1{
+    display: flex;
+    justify-content: space-around;
+}
+.con1{
+    font-size: 23px;
+    margin-top: 80px;
+    margin-bottom: -310px;
+    margin-left: 125px;
+
+}
+.icon{
+    position: relative;
+    top: 470px;
+    right: 110px;
+}
+.con1 a{
+  text-decoration: none;
+  color: black;
+}
+
+/* Responsive design */
+
+ /* @media only screen and (max-width: 767px) { */
+        /* header{ 
+          height: 100vh; 
+           width: 100%;
+          
+          overflow-x: hidden;
+          overflow-y: hidden;
+        } 
+         main{ 
+          height: 100vh; 
+          width: 100%;
+          
+          overflow-x: hidden;
+        }
+        footer{ 
+           height: 100vh; 
+           width: 100%;
+         
+          overflow-x: hidden;
+        } */
+       /* .navbar a{
+       margin-left: -70px;
+       font-size: 13px;
+       }
+       a[href*="qanda"]{
+        left: 50px
+       }
+
+       .box{
+        height: 600px;
+       }
+       .box1 h3{
+        margin-bottom: -22px;
+        font-size: 40px;
+        margin-left: -30px;
+        position: relative;
+        top: -93px;
+       }
+       .box1 h2{
+        font-size: 40px;
+        margin-left: -30px;
+        position: relative;
+        top: -90px;
+       }
+       .box1 p{
+        position: relative;
+        top: -60px;
+        margin-left: -30px;
+       }
+       .box2 img{
+        display: none;
+       }
+       
+       
+       .cont1 h2{
+        font-size: 42px;
+        margin-left: -184px;
+        margin-top: -240px;
+       }
+       .cont1 p{
+        font-size: 42px;
+        margin-left: -184px;
+        margin-top: -20px;
+       }
+       .cont1{
+        width: 300px;
+       }
+       .cont{
+        left: 238px;
+        top: 200px;
+       }
+
+       .container{
+        flex-direction: column;
+       }
+
+       .container4 #con{
+        font-size: 3rem;
+        margin-top: -5px;
+       }
+       .bord{
+        margin-top: 5px;
+        margin-left: 0px;
+       }
+       .kbox{
+        flex-direction: column;
+       }
+       .box3{
+        height: 435px;
+        width: 250px;
+        padding: 15px 35px;
+        margin: 45px 40px;
+       }
+       .container5 #con1{
+        margin-top: 15px;
+        font-size: 2rem;
+       }
+       .kbox1{
+        flex-direction: column;
+       }
+       .box4{
+        height: 150px;
+        width: 150px;
+        font-size: 22px;
+        margin-top: 32px;
+        padding-top: 23px;
+       }
+       .kbox2{
+        flex-direction: column;
+       }
+       hr{
+        margin-top: 30px;
+       }
+       .foot1{
+        flex-direction: column;
+       }
+       .con1{
+        font-size: 22px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+       }
+       .icon{
+        top: -20px;
+        right: -250px;
+       }
+
+       .cont2 img{
+        height: 350px;
+        width: 385px;
+        margin-top: 23px;
+        margin-left: 14px;
+       }
+
+       .cont3{
+        margin: -70px 30px;
+        font-size: 26px;
+       }
+
+       .container2{
+        flex-direction: column;
+       } 
+    
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  header{
+    width: 100vh;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  } 
+  main{
+    width: 100vh;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  footer{
+    width: 100vh;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  a[href*="qanda"]{
+    left: 50px;
+  }
+  .box{
+    height: 540px;
+  }
+  .box1{
+    margin-top: -260px;
+    margin: 72px -30px;
+    font-size: 25px;
+  }
+
+ .box2{
+    margin: 75px -57px;
+  }
+
+  .box2 img{
+    height: 350px;
+    width: 412px;
+    margin-left: -37px;
+    margin-right: 45px
+  }
+
+   .cont1{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 80px;
+   }
+   .cont{
+    left: 500px;
+    top: 75px;
+   }
+   .cont2 img{
+    margin-left: 120px;
+    width: 500px;
+   }
+   .cont3{
+    margin-top: -100px;
+   }
+   .emilogo{
+    margin: 85px 250px;
+   }
+   .bord{
+    margin-left: 180px;
+   }
+   .kbox{
+    align-items: center;
+   }
+
+   .kbox1{
+    align-items: center;
+   }
+   .kbox2{
+    align-items: center;
+   }
+  
+   .icon{
+    right: -645px;
+   }
+
+
+
+}  */
+
+/* @media only screen and (max-width:480px){
+  header{
+      overflow-x: hidden;
+      width: 100%;
+  }
+
+  main{
+      width: 100%;
+      overflow-x: hidden;
+
+  }
+  footer{
+      width: 100%;
+      overflow-x:hidden;
+  }
+  html, body {
+      overflow-x: hidden;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  header{
+      overflow-x: hidden;
+      width: 100%;
+  }
+
+  main{
+      width: 100%;
+      overflow-x: hidden;
+
+  }
+  footer{
+      width: 100%;
+      overflow-x:hidden;
+  }
+  html, body {
+      overflow-x: hidden;
+  }
+  
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+  header{
+      overflow-x: hidden;
+      width:100%;
+  }
+
+  main{
+      width:100%;
+      overflow-x: hidden;
+
+  }
+  footer{
+      width: 100%;
+      overflow-x:hidden;
+  }
+  html, body {
+      overflow-x: hidden;
+  }
+
+} */
+
+
+/* @media only screen and (min-width: 1025px) and (max-width: 1440px){
+  header{
+      overflow-x: hidden;
+      width:100%;
+  }
+
+  main{
+      width:100%;
+      overflow-x: hidden;
+
+  }
+  footer{
+      width: 100%; */
+      /* overflow-x:hidden; */
+  /* }
+  html, body {
+      overflow-x: hidden;
+  }
+
+}
+
+@media only screen and (min-width: 1441px){
+  header{
+      overflow-x: hidden;
+      width: 100%;
+  }
+
+  main{
+      width: 100%;
+      overflow-x: hidden;
+
+  }
+  footer{
+      width: 100%; */
+      /* overflow-x:hidden; */
+  /* }
+  html, body {
+      overflow-x: hidden;
+  }
+  
+}
+ */
+
+/* Media Query for Mobile Devices (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+    /* General Body Styling */
+    body {
+        
+        font-size: 14px;
+        line-height: 1.5; 
+         overflow-x: hidden; /*Prevent horizontal scrolling */
+    }
+      .logo {
+        justify-content: center; /* Center the logo */
+        margin: 10px 0; /* Add some margin for spacing */
+      }
+    
+      .logo img {
+        height: 80px; /* Reduce logo size */
+        width: 80px; /* Reduce logo size */
+      }
+    
+      .navbar {
+        flex-direction: column; /* Stack nav items vertically */
+        align-items: center; /* Center items */
+        padding: 0; /* Remove padding */
+      }
+    
+      .navbar li {
+        margin: 5px 0; /* Reduce margin between items */
+      }
+    
+      .navbar a {
+        font-size: 18px; /* Smaller font size for links */
+        padding: 10px 15px; /* Adjust padding for smaller screens */
+      }
+    
+      a[href*="qanda"] {
+        left: 0; /* Reset left position */
+        font-size: 18px; /* Smaller font size */
+      }
+    
+
+ 
+    .cont{
+    position: relative;
+    left: 5px;
+    top: -15px;
+    }
+    .cont1{
+    position: relative;
+    left: 8px;
+    top: -5px;
+    }
+
+   
+    /* Main Box Layout */
+    .box {
+        flex-direction: column; /* Stack vertically */
+        height: auto; /* Allow for dynamic height */
+        padding: 10px;
+    }
+
+    .box1 {
+        margin: 10px; /* Adjust margin for boxes */
+        padding: 10px; /* Adjust padding for boxes */
+        text-align: center; /* Center text in boxes */
+    }
+    .kbox{
+      flex-direction: column;
+    }
+
+    .box1 h2, .box1 h3, .box1 p {
+        font-size: 1.2rem; /* Adjust font size for mobile */
+        margin: 5px 0; /* Adjust margins for spacing */
+    }
+
+    /* Button */
+    .btn {
+        padding: 10px 20px; /* Adjust button padding */
+        font-size: 1rem; /* Adjust font size */
+        margin: 10px auto; /* Center buttons */
+        width: 80%; /* Button width for better fit */
+        text-align: center;
+        display: block; /* Make the button block-level */
+    }
+
+    /* Content Container */
+    .container {
+        flex-direction: column; /* Stack items vertically */
+        padding: 10px; /* Padding around the container */
+        align-items: center; /* Center align items */
+    }
+
+    /* Image Styles */
+    .emilogo, .cont2 img {
+        max-width: 100%; /* Responsive images */
+        height: auto; /* Maintain aspect ratio */
+        margin: 10px auto; /* Center images */
+        display: block; /* Block-level for centering */
+    }
+
+    /* Box 3 and Box 4 Adjustments */
+     .box3,.box4 {
+        width: 85%; /* Responsive box width */
+        margin: 10px auto; /* Center the boxes */
+        padding: 15px; /* Padding inside boxes */
+        font-size: 1rem; /* Font size for boxes */
+        text-align: center; /* Center text */
+        border: 1px solid #ccc; /* Optional border for visibility */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for better visual */
+    }
+
+    hr {
+        margin: 20px 0; /* Margin for horizontal rule */
+    }
+
+
+
+
+
+
+  .box {
+      flex-direction: column;
+      height: auto;
+  }
+
+  .box1 {
+      margin: 10px;
+      text-align: center;
+  }
+
+  .box1 h2, .box1 h3 {
+      font-size: 1.8rem;
+  }
+
+  .box1 p {
+      font-size: 1rem;
+      margin: 10px 0;
+  }
+
+  .btn {
+      padding: 10px 40px;
+      font-size: 18px;
+  }
+
+  .box2 {
+      margin: 0;
+      padding: 10px;
+      text-align: center;
+  }
+
+  .box2 img {
+      width: 100%;
+      height: auto;
+  }
+
+  .container, .container2, .container3, .container4, .container5 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .cont1 h2, .cont1 p {
+      font-size: 1.8rem;
+  }
+
+  .cont3 {
+      font-size: 1.6rem;
+      margin: 20px;
+  }
+
+  .box3 {
+      width: 80%;
+      margin: 20px;
+      font-size: 1rem;
+      height: auto;
+  }
+
+  .kbox1{
+    flex-direction: column;
+
+  }
+  .kbox2{
+    flex-direction: column;
+  }
+
+  .emilogo {
+      width: 80%;
+      height: auto;
+      margin: 10px;
+      left: 30px;
+  }
+
+  .foot1 {
+    display: block; /* Stack the footer content vertically */
+    text-align: center;
+    margin-top: 20px; /* Add some space above the footer */
+  }
+
+  .con1 {
+    margin-left: 0; /* Reset margins */
+    margin-right: 0;
+    margin-bottom: 20px; /* Space out footer items */
+  }
+
+  .icon {
+    top: 0;
+    right: 0;
+    text-align: center; /* Center icons */
+  }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+  /* ---- MEDIA QUERY FOR SMALL TABLETS AND LARGE SMARTPHONES ---- */
+
+  
+    body{
+      overflow-x: hidden;
+    }
+    .logo {
+      justify-content: center; /* Center the logo */
+      margin: 15px 0; /* Add some margin for spacing */
+    }
+  
+    .logo img {
+      height: 100px; /* Adjust logo size for medium screens */
+      width: 100px; /* Adjust logo size for medium screens */
+    }
+  
+    .navbar {
+     flex-wrap: nowrap;
+     justify-content: center;
+    }
+  
+    .navbar li {
+      margin: 0 15px; /* Reduce side margin */
+    }
+  
+    .navbar a {
+      font-size: 14px; /* Adjust font size for medium screens */
+      padding: 10px 0px; /* Keep padding consistent */
+    }
+  
+    a[href*="qanda"] {
+      left: 0; /* Reset left position */
+      font-size: 16px;
+      width: 55px; /* Adjust font size */
+    }
+
+  /* Box Section */
+  .box {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+      /* height: 300px; */
+  }
+
+  .box1 {
+      margin: 10px 15px;
+      font-size: 20px; /* Slightly smaller font for small devices */
+      align-self: center;
+  }
+
+  .box1 h2 {
+      font-size: 2rem; /* Further adjust heading sizes */
+      margin-left: 0;
+      text-align: center;
+  }
+
+  .box1 h3 {
+      font-size: 1.8rem;
+      margin-left: 0;
+      text-align: center;
+  }
+
+  .box1 p {
+      font-size: 1rem;
+      margin-left: 0;
+      text-align: center;
+  }
+
+  /* Button */
+  .btn {
+      padding: 10px 30px; /* Smaller button for smaller screens */
+      margin: 20px auto;
+      font-size: 18px;
+      display: block;
+  }
+
+  /* Container */
+  .container {
+      flex-direction: column;
+      height: auto;
+  }
+
+  .cont, .cont1 {
+      position: static;
+      margin: 15px 20px;
+  }
+
+  .cont1 h2 {
+      font-size: 3rem;
+      text-align: center;
+  }
+
+  .cont1 p {
+      font-size: 2rem;
+      text-align: center;
+  }
+
+  /* Additional Containers */
+  .container2 {
+      flex-direction: column;
+  }
+
+  .cont3 {
+      font-size: 1.6rem;
+      margin: 15px 20px;
+      text-align: center;
+  }
+
+  .cont2 img {
+      margin: 15px auto;
+      width: 80%;
+      height: 50%;
+  }
+
+  /* Emilogo */
+  .emilogo {
+      height: auto;
+      width: 70%; /* Slightly narrower for these screens */
+      margin: 20px auto;
+      top: 65px;
+  }
+
+  .emilogo a {
+      font-size: 1.3rem;
+  }
+
+  /* Bordered Element */
+  .bord {
+      width: 80%;
+      margin: 30px auto;
+  }
+
+  /* Boxes */
+  .box3, .box4 {
+      width: 70%; /* Adjust box width */
+      margin: 20px auto;
+      height: auto;
+      padding: 25px;
+      font-size: 1rem;
+  }
+
+  /* Centering Boxes */
+  .kbox, .kbox1, .kbox2 {
+      flex-direction: column;
+      align-items: center;
+  }
+
+
+
+
+  
+
+  .box {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+    
+  }
+
+  .box1 h2 {
+      font-size: 2.4rem;
+  }
+
+  .box1 h3 {
+      font-size: 2rem;
+  }
+
+  .box1 p {
+      font-size: 1.2rem;
+  }
+
+  .btn {
+      padding: 12px 50px;
+      font-size: 20px;
+  }
+
+  .box2 img {
+      width: 100%;
+      height: auto;
+      margin-top: 0px;
+  }
+
+  .container, .container2, .container3, .container4, .container5 {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .cont1 h2 {
+      font-size: 3rem;
+  }
+
+  .cont1 p {
+      font-size: 2rem;
+  }
+
+  .cont3 {
+      font-size: 2rem;
+      margin: 20px;
+  }
+
+  .box3 {
+      width: 80%;
+      font-size: 1.4rem;
+      height: auto;
+  }
+
+  .emilogo {
+      width: 60%;
+      height: 60%;
+  }
+
+  footer{
+    text-align: center;
+  }
+
+  .foot1{
+    flex-direction: column;
+   }
+   .con1{
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+   }
+   .icon{
+    position: static;
+   }
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body{
+    overflow-x: hidden;
+  }
+  /* ---- MEDIA QUERY FOR TABLETS ---- */
+
+  .navbar a{
+    margin-left: -40px;
+    font-size: 17px;
+    }
+
+    a[href*="qanda"]{
+     left: 50px;
+    }
+
+  /* Box Section */
+  .box {
+      flex-direction: column;
+      height: auto; /* Make height flexible */
+      padding: 20px;
+  }
+
+  .box1 {
+      margin: 16px 20px; /* Adjust margin for tablets */
+      font-size: 22px; /* Slightly smaller font */
+      align-self: center;
+  }
+
+  .box1 h2 {
+      font-size: 2.5rem; /* Adjust title font size */
+      margin-left: 0; /* Centered for tablet screens */
+      text-align: center;
+  }
+
+  .box1 h3 {
+      font-size: 2rem;
+      margin-left: 0;
+      text-align: center;
+  }
+
+  .box1 p {
+      font-size: 1.2rem;
+      margin-left: 0;
+      text-align: center;
+  }
+
+  /* Button */
+  .btn {
+      padding: 12px 40px; /* Slightly larger button padding */
+      margin: 20px auto;
+      font-size: 20px;
+      display: block;
+  }
+
+  /* Container */
+  .container {
+      flex-direction: column;
+      height: auto;
+  }
+
+  .cont, .cont1 {
+      position: static; /* Remove positioning for better flexibility */
+      margin: 20px; /* Provide consistent margins */
+  }
+
+  .cont1 h2 {
+      font-size: 3.5rem;
+      text-align: center; /* Ensure headers are centered */
+  }
+
+  .cont1 p {
+      font-size: 2.5rem;
+      text-align: center;
+  }
+
+  /* Additional Containers */
+  .container2 {
+      flex-direction: column;
+  }
+
+  .cont3 {
+      font-size: 1.8rem;
+      margin: 20px;
+      text-align: center;
+  }
+
+  .cont2 img {
+      margin: 20px auto;
+      width: 100%;
+  }
+
+  /* Emilogo */
+  .emilogo {
+      height: auto;
+      width: 60%; /* Increase width for tablets */
+      margin: 20px auto;
+      top: 0;
+  }
+
+  .emilogo a {
+      font-size: 1.5rem;
+  }
+
+  /* Bordered Element */
+  .bord {
+      width: 80%;
+      margin: 30px auto;
+  }
+
+  /* Boxes */
+  .box3, .box4 {
+      width: 60%; /* Larger width on tablet */
+      margin: 30px auto;
+      height: auto;
+      padding: 30px;
+      font-size: 1.2rem;
+  }
+
+  .box3 {
+      margin-top: 50px;
+  }
+
+  /* Centering Boxes */
+  .kbox, .kbox1, .kbox2 {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  
+
+  .box {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 20px;
+      height: auto;
+  }
+
+  .box1 h2 {
+      font-size: 3rem;
+  }
+
+  .box1 h3 {
+      font-size: 2.5rem;
+  }
+
+  .box1 p {
+      font-size: 1.5rem;
+  }
+
+  .btn {
+      padding: 12px 60px;
+      font-size: 20px;
+  }
+
+  .box2 img {
+      width: 150%;
+      height: 400px;
+      margin-top: 0;
+      margin-left: -30px;
+  }
+
+  .container {
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  .cont1 h2 {
+      font-size: 3.5rem;
+  }
+
+  .cont1 p {
+      font-size: 2.5rem;
+  }
+
+  .cont3 {
+      font-size: 2.5rem;
+  }
+
+  .box3 {
+      width: 40%;
+      font-size: 1.8rem;
+  }
+
+  .emilogo {
+      width: 35%;
+      top: 75px;
+      
+  }
+
+  footer{
+    text-align: center;
+  }
+
+  .foot1{
+    flex-direction: column;
+    
+   }
+   .con1{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+   }
+   .icon{
+    position: static; 
+   }
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+
+  /* Special Link */
+  .navbar a{
+    margin-left: -40px;
+    font-size: 23px;
+    }
+
+    a[href*="qanda"]{
+     left: 50px
+    }
+
+  /* Box Section */
+  .box {
+      flex-direction: column;
+      height: auto; /* Make height flexible */
+      
+      padding: 20px;
+  }
+
+  .box1 {
+      margin: 16px 20px; /* Adjust margin for tablets */
+      font-size: 22px; /* Slightly smaller font */
+      align-self: center;
+  }
+
+  .box1 h2 {
+      font-size: 2.5rem; /* Adjust title font size */
+      margin-left: 0; /* Centered for tablet screens */
+      text-align: center;
+  }
+
+  .box1 h3 {
+      font-size: 2rem;
+      margin-left: 0;
+      text-align: center;
+  }
+
+  .box1 p {
+      font-size: 1.2rem;
+      margin-left: 0;
+      text-align: center;
+  }
+
+  /* Button */
+  .btn {
+      padding: 12px 40px; /* Slightly larger button padding */
+      margin: 20px auto;
+      font-size: 20px;
+      display: block;
+  }
+
+  /* Container */
+  .container {
+      flex-direction: column;
+      height: auto;
+  }
+
+  .cont, .cont1 {
+      position: static; /* Remove positioning for better flexibility */
+      margin: 20px; /* Provide consistent margins */
+  }
+
+  .cont1 h2 {
+      font-size: 3.5rem;
+      text-align: center; /* Ensure headers are centered */
+  }
+
+  .cont1 p {
+      font-size: 2.5rem;
+      text-align: center;
+  }
+
+  /* Additional Containers */
+  .container2 {
+      flex-direction: column;
+  }
+
+  .cont3 {
+      font-size: 1.8rem;
+      margin: 20px;
+      text-align: center;
+  }
+
+  .cont2 img {
+      margin: 20px auto;
+      width: 100%;
+  }
+
+  /* Emilogo */
+  .emilogo {
+      height: auto;
+      width: 60%; /* Increase width for tablets */
+      margin: 20px auto;
+      top: 0;
+  }
+
+  .emilogo a {
+      font-size: 1.5rem;
+  }
+
+  /* Bordered Element */
+  .bord {
+      width: 80%;
+      margin: 30px auto;
+  }
+
+  /* Boxes */
+  .box3, .box4 {
+      width: 60%; /* Larger width on tablet */
+      margin: 30px auto;
+      height: auto;
+      padding: 30px;
+      font-size: 1.2rem;
+  }
+
+  .box3 {
+      margin-top: 50px;
+  }
+
+  /* Centering Boxes */
+  .kbox, .kbox1, .kbox2 {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .box {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 20px;
+      height: auto;
+  }
+
+  .box1 h2 {
+      font-size: 3rem;
+  }
+
+  .box1 h3 {
+      font-size: 2.5rem;
+  }
+
+  .box1 p {
+      font-size: 1.5rem;
+  }
+
+  .btn {
+      padding: 12px 60px;
+      font-size: 20px;
+  }
+
+  .box2 img {
+      width: 150%;
+      height: 400px;
+      margin-top: 0;
+      margin-left: -30px;
+  }
+
+  .container {
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  .cont1 h2 {
+      font-size: 3.5rem;
+  }
+
+  .cont1 p {
+      font-size: 2.5rem;
+  }
+
+  .cont3 {
+      font-size: 2.5rem;
+  }
+
+  .box3 {
+      width: 40%;
+      font-size: 1.8rem;
+  }
+
+  .emilogo {
+      width: 35%;
+      top: 75px;
+      
+  }
+
+  .con1{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: -70px;
+   }
+  
+
+   .icon {
+    position: relative;
+    margin-top: 375px;
+    display: flex;
+    top: 50px;
+    right: 25px;
+   }
+}
+
