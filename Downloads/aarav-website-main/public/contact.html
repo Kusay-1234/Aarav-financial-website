@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/stylescontact.css">
+  <script>
+    async function sendEmail(event) {
+      event.preventDefault(); // Prevent default form submission
+
+      const nameInput = document.querySelector('input[name="name"]');
+      const emailInput = document.querySelector('input[name="email"]');
+      const phoneInput = document.querySelector('input[name="phone"]');
+
+      const name = nameInput.value.trim();
+      const email = emailInput.value.trim();
+      const phone = phoneInput.value.trim();
+
+      let isValid = true;
+
+      // Clear previous error messages
+      document.querySelectorAll('.error').forEach(error => error.remove());
+
+      // Validate fields and show error messages
+      if (!name) {
+        showError(nameInput, "Name is required");
+        isValid = false;
+      }
+      if (!email) {
+        showError(emailInput, "Email is required");
+        isValid = false;
+      }
+      if (!phone) {
+        showError(phoneInput, "Phone no. is required");
+        isValid = false;
+      }
+
+      if (!isValid) {
+        return; // Stop the function if validation fails
+      }
+
+      try {
+        const response = await fetch('http://localhost:3000/send-email', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ name, email, phone }),
+        });
+
+        if (response.ok) {
+          alert('Email sent successfully!');
+          nameInput.value = ''; // Clear the input fields
+          emailInput.value = '';
+          phoneInput.value = '';
+        } else {
+          alert('Error sending email. Please try again.');
+        }
+      } catch (error) {
+        console.error('Error:', error);
+        alert('Error sending email. Please try again.');
+      }
+    }
+
+    function showError(input, message) {
+      const error = document.createElement('span');
+      error.className = 'error';
+      error.style.color = 'red';
+      error.innerText = message;
+      input.parentNode.appendChild(error); // Append error directly under input
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/Aarv logo png.png" alt="AARAV LOGO" height="120" width="120">
+    </div>
+    <nav>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li class="dropdown">
+          <a href="#">Services</a>
+          <ul class="dropdown-content">
+            <li><a href="services1.html">Secured Loan</a></li>
+            <li><a href="services2.html">Unsecured Loan</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="qanda.html">Q&A</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <div class="logo1">
+        <img src="images/Aarv logo png.png" alt="AARAV LOGO" height="450" width="450">
+      </div>
+    </section>
+    <section>
+      <div class="box1">
+        <p> At Aarav Financial Services and Advisory, we are here to help you achieve
+          your financial goals. Whether you need advice on managing your debt,
+          securing a loan, or planning for your financial future, our team is ready to
+          assist.</p>
+      </div>
+    </section>
+    <section>
+      <div class="box2">
+        <p>Office Hours: Monday to Friday, 9:00 AM - 6:00 PM</p>
+      </div>
+      <div class="button-center">
+        <button class="btn1" type="button">Get in touch</button>
+      </div>
+    </section>
+    <section>
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="info-item">
+            <img src="images/icons8-email-60.png" alt="EMAIL ICON">
+            <a href="#">aaravfinancialservices@gmail.com</a>
+          </div>
+          <div class="info-item">
+            <img src="images/icons8-phone-60.png" alt="PHONE ICON">
+            <p>+91 000 000 0000</p>
+          </div>
+          <div class="info-item">
+            <img src="images/icons8-location-50.png" alt="LOCATION ICON">
+            <p>Visit us</p>
+          </div>
+        </div>
+
+        <div class="follow-us">
+          <h3>Follow Us</h3>
+          <a href="https://facebook.com"><img src="images/icons8-facebook-60.png" alt="ICON">Facebook</a>
+          <a href="#"><img src="images/icons8-instagram-50.png" alt="ICON"></i> Instagram</a>
+        </div>
+
+
+        <div class="form-container">
+          <form>
+            <div>
+              Name <input type="text" name="name" required>
+            </div>
+            <div>
+              Email <input type="email" name="email" required>
+            </div>
+
+            <div>
+              Phone no. <input type="tel" name="phone" required>
+            </div>
+            <button type="submit" value="Subscribe" id="notify-button" onclick="sendEmail(event)">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <hr>
+  </main>
+
+  <footer>
+    <div class="foot1">
+      <div class="con1">
+        <h3>Business Loans</h3>
+        <p><u>Unsecured Business Loan</u></p>
+        <p><u>Business Loan Eligibility and Criteria</u></p>
+        <p><u> Business Loan Interest Rates</u></p>
+        <p><u> Business Expansion Loan</u></p>
+        <p><u> SME/MSME Loan</u></p>
+        <p><u> Machinery Loan</u></p>
+        <p><u> Working Capital Loan</u></p>
+      </div>
+      <div class="con1">
+        <h3>Secured Loans</h3>
+        <p><u>Loan Against Property</u></p>
+        <p><u> Healthcare Equipment Finance</u> </p>
+        <p><u>School Financing / K-12 Loans</u></p>
+        <h3>EMI Calculators</h3>
+        <p><u>Business Loan EMI Calculator</u></p>
+        <h3>Credit Score</h3>
+        <p><u>Check Free Credit Score</u></p>
+      </div>
+      <div class="con1">
+        <h3>About Aarav Financial Service</h3>
+        <p><a href="aboutus.html">About us</a></p>
+        <p><a href="contact.html">Contact us</a></p>
+      </div>
+
+      <div class="icon">
+        <a href="https://www.facebook.com/login/" target="_blank"><img src="images/icons8-facebook-60.png"
+            alt="FACEBOOK ICON"></a>
+        <a href="" target="_blank"><img src="images/icons8-instagram-50.png" alt="INSTAGRAM ICON"></a>
+      </div>
+    </div>
+    <div>
+      <h6><a href="https://akdigitalsindia.com/">@Copyright and Powered by: AK Digitals India</a></h6>
+    </div>
+  </footer>
+
+</body>
+
+</html>

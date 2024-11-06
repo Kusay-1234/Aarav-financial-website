@@ -1,0 +1,1677 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "poppins";
+
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  background-color: white;
+  display: block;
+}
+
+
+/* Navbar Styling */
+.navbar {
+  list-style: none;
+  padding: 10px 0px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.navbar li {
+  position: relative;
+  margin: 0 40px;
+}
+
+.navbar a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 12px 0px;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.navbar a:hover {
+  color: #6062d1;
+}
+
+/* Dropdown Styling */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px rgba(0,0,0,0.2); */
+  /* z-index: 1; */
+}
+
+.dropdown-content li {
+  width: 100%;
+  list-style-type: none;
+
+
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px 0px;
+  display: block;
+  margin: 5px 35px;
+  font-size: 22px;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  color: white;
+}
+
+
+/* Hover effect to show dropdown */
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: black;
+}
+
+a[href*="qanda"] {
+  background-color: white;
+  color: black !important;
+  padding: 14px;
+  position: relative;
+  left: 410px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.box {
+  display: flex;
+  /* background-color: rgb(103, 38, 176); */
+  background: linear-gradient(to left, #4251A2, #180F38);
+  padding: 0px;
+  height: 850px;
+}
+
+.box1 h2 {
+  color: white;
+  font-size: 3em;
+  margin-bottom: 5px;
+  margin-left: 55px;
+}
+
+.box1 h3 {
+  color: white;
+  font-size: 2em;
+  margin-bottom: -20px;
+  margin-top: -20px;
+  margin-left: 55px;
+
+}
+
+.box1 p {
+  color: white;
+  margin-top: 25px;
+  font-size: 16px;
+  margin-left: 55px;
+}
+
+.btn {
+  display: inline-block;
+  /* Ensure it behaves like a button */
+  padding: 10px 100px;
+  margin: 33px 55px;
+  color: white;
+  background: linear-gradient(to right, #6E5CA8, #5354A3);
+  font-size: 22px;
+  text-align: center;
+  /* Center the text */
+  text-decoration: none;
+  /* Remove underline */
+  border: none;
+  /* No border */
+}
+
+
+.box1 {
+  margin: 16px 36px;
+  font-size: 29px;
+  align-self: center;
+}
+
+/* .box2 {
+    margin: 130px 18px;
+    padding: 20px 20px;
+} */
+
+.container {
+  display: flex;
+  background-color: rgb(230, 228, 228);
+  height: 400px;
+  color: #6C5CA8;
+}
+
+.cont {
+  position: relative;
+  left: 200px;
+  top: 65px;
+}
+
+.cont1 {
+  position: relative;
+  left: 180px;
+  top: 75px;
+  margin: -15px 8px;
+
+}
+
+.cont1 h2 {
+  font-size: 5rem;
+}
+
+.cont1 p {
+  font-size: 4rem;
+}
+
+.container2 {
+  display: flex;
+
+}
+
+.cont3 {
+  font-size: 48px;
+  color: #6C5CA8;
+  margin: 200px 30px;
+  text-align: justify;
+
+
+}
+
+.cont2 img {
+  margin: 125px 60px;
+
+}
+
+.container3 {
+  background: linear-gradient(to left, #6E5CA8, #5354A3);
+  height: 300px;
+
+}
+
+.emilogo {
+  height: 150px;
+  width: 270px;
+  /* Adjusted width */
+  background-color: black;
+  margin: 85px 55px;
+  /* Centering */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  /* No extra padding needed */
+  position: relative;
+  top: 65px;
+}
+
+.emilogo a {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  /* Make the link fill the box */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.emilogo a img {
+  margin-bottom: 10px;
+}
+
+.kbox {
+  display: flex;
+  justify-content: center;
+}
+
+.container4 #con {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 95px;
+  color: #6C5CA8;
+}
+
+.bord {
+  border: 5px solid black;
+  width: 400px;
+  margin-left: 1030px;
+  margin-top: 23px;
+  border-radius: 35px;
+}
+
+.box3 {
+  border: 2px solid white;
+  background-color: white;
+  color: grey;
+  padding: 80px 60px;
+  margin: 140px 30px;
+  font-size: 20px;
+  height: 400px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 10px 10px 22px 20px rgb(187, 179, 179);
+}
+
+.container5 #con1 {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 65px;
+  color: #6C5CA8;
+}
+
+.box4 {
+  border: 2px solid black;
+  border-radius: 8px;
+  height: 200px;
+  width: 300px;
+  font-size: 24px;
+  color: grey;
+  text-align: center;
+  background-color: white;
+  margin: 42px;
+  margin-top: 75px;
+  padding: 100px 80px;
+
+}
+
+.kbox1 {
+  display: flex;
+  justify-content: center;
+}
+
+.kbox2 {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  margin-top: 150px;
+
+}
+
+.foot1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.con1 {
+  font-size: 23px;
+  margin-top: 80px;
+  margin-bottom: -310px;
+  /* margin-left: 100px; */
+
+}
+
+.icon {
+  position: relative;
+  top: 470px;
+  right: 110px;
+}
+
+.con1 a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Popup Modal Styling */
+.popup {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1000;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* Black w/ opacity */
+  overflow: hidden;
+  /* Prevent scrolling for the entire popup */
+}
+
+/* Popup content box */
+.popup-content {
+  background-color: #fefefe;
+  margin: 0 auto;
+  /* Center horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Center vertically */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  /* Adjust width */
+  max-width: 980px;
+  /* Set a max width */
+  border-radius: 10px;
+  /* Rounded corners */
+  max-height: 90vh;
+  /* Ensure content fits within the popup without external scroll */
+  overflow-y: auto;
+  height: 760px;
+  /* Scrolling inside the popup if content exceeds the height */
+}
+
+.direct3 h2 {
+  font-size: 26px;
+}
+
+.direct4 {
+  font-size: 22px;
+}
+
+/* Close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Container styles inside the popup */
+.popup .direct3,
+.popup .direct2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+/* Text and input styles */
+.popup .direct3 h2,
+.popup .direct2 h2 {
+  font-size: 1.5rem;
+  color: #6C5CA8;
+}
+
+.popup .direct3 input,
+.popup .direct2 input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styling for EMI details section */
+.popup .calci {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.popup .calci img {
+  width: 24px;
+  height: 24px;
+}
+
+.popup .calci2 p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #6C5CA8;
+}
+
+.popup .calci4 {
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+/* Total Investment & Payable details */
+.popup .cont3 li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+/* Links styling */
+.popup .direct a {
+  margin-right: 10px;
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: #6C5CA8;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.popup .calci1 a:hover {
+  background-color: #5354A3;
+}
+
+h6{
+  color: grey;
+  text-align: center;
+  margin-top: 34px; 
+}
+
+/* Media Query for Mobile Devices (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+
+  /* General Body Styling */
+  body {
+
+    font-size: 14px;
+    line-height: 1.5;
+    overflow-x: hidden;
+    /*Prevent horizontal scrolling */
+  }
+
+  .logo {
+    justify-content: center;
+    /* Center the logo */
+  }
+
+  .logo img {
+    height: 80px;
+    /* Reduce logo size */
+    width: 80px;
+    /* Reduce logo size */
+  }
+
+  .navbar {
+    flex-direction: column;
+    /* Stack nav items vertically */
+    align-items: center;
+    /* Center items */
+    padding: 0;
+    /* Remove padding */
+  }
+
+  .navbar li {
+    margin: 5px 0;
+    /* Reduce margin between items */
+  }
+
+  .navbar a {
+    font-size: 14px;
+    /* Smaller font size for links */
+    padding: 10px 15px;
+    /* Adjust padding for smaller screens */
+  }
+
+  a[href*="qanda"] {
+    left: 0;
+    /* Reset left position */
+    font-size: 14px;
+    /* Smaller font size */
+  }
+
+  .dropdown-content {
+    position: static;
+  }
+
+  .box {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .box1 {
+    text-align: center;
+  }
+
+  .box1 h2 {
+    font-size: 1.5rem;
+    margin-top: -15px;
+  }
+
+  .box1 h3 {
+    font-size: 1.8rem;
+    margin-top: -15px;
+  }
+
+  .box1 p {
+    font-size: 0.8rem;
+    margin: 20px 0;
+  }
+
+  .box2 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .box2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .box1 h2,
+  .box1 h3 {
+    margin: -15px 0;
+    /* Adjust margins for spacing */
+  }
+
+  /* Button */
+  .btn {
+    padding: 10px 0px;
+    /* Adjust button padding */
+    font-size: 0.9rem;
+    /* Adjust font size */
+    text-align: center;
+    display: block;
+    /* Make the button block-level */
+    width: 200px;
+  }
+
+  .cont {
+    position: relative;
+    left: 5px;
+    top: 10px;
+  }
+
+  .cont1 {
+    position: relative;
+    left: 8px;
+    top: 25px;
+  }
+
+  .cont1 h2,
+  .cont1 p {
+    font-size: 1.5rem;
+  }
+
+  .kbox {
+    flex-direction: column;
+  }
+
+  .emilogo a {
+    font-size: 17px;
+  }
+
+  .container {
+    height: 480px;
+  }
+
+  .container4 #con,
+  .container5 #con1 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+
+  /* Image Styles */
+  .emilogo,
+  .cont2 img {
+    max-width: 100%;
+    /* Responsive images */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin: 10px auto;
+    /* Center images */
+    display: block;
+    /* Block-level for centering */
+  }
+
+  /* Box 3 and Box 4 Adjustments */
+  .box3,
+  .box4 {
+    width: 85%;
+    /* Responsive box width */
+    margin: 10px auto;
+    /* Center the boxes */
+    padding: 15px;
+    /* Padding inside boxes */
+    font-size: 1rem;
+    /* Font size for boxes */
+    text-align: center;
+    /* Center text */
+    border: 1px solid #ccc;
+    /* Optional border for visibility */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Add shadow for better visual */
+  }
+
+  hr {
+    margin: 20px 0;
+    /* Margin for horizontal rule */
+  }
+
+
+  .container,
+  .container2,
+  .container3,
+  .container4,
+  .container5 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .cont3 {
+    font-size: 1rem;
+    margin: 20px;
+  }
+
+  .box3 {
+    width: 55%;
+    margin-bottom: 60px;
+    font-size: 0.7rem;
+    height: auto;
+    margin-top: -30px;
+  }
+
+  .box4 {
+    width: 55%;
+    margin-bottom: 60px;
+    font-size: 0.7rem;
+    height: auto;
+    margin-top: -30px;
+  }
+
+  .kbox1 {
+    flex-direction: column;
+  }
+
+  .kbox2 {
+    flex-direction: column;
+  }
+
+  .emilogo {
+    width: 60%;
+    height: auto;
+    margin: 5px auto;
+    display: block;
+    /* left: 65px; */
+
+  }
+
+  .foot1 {
+    display: block;
+    /* Stack the footer content vertically */
+    text-align: center;
+    margin-top: -45px;
+    /* Add some space above the footer */
+  }
+
+  .con1 {
+    margin-left: 0;
+    /* Reset margins */
+    margin-right: 0;
+    margin-bottom: 0px;
+    font-size: 16px;
+    /* Space out footer items */
+  }
+
+  .icon {
+    top: 0;
+    right: 0;
+    text-align: center;
+    /* Center icons */
+  }
+
+  .icon img {
+    height: 30px;
+    width: 30px;
+  }
+
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+  /* ---- MEDIA QUERY FOR SMALL TABLETS AND LARGE SMARTPHONES ---- */
+
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .logo {
+    justify-content: center;
+    /* Center the logo */
+  }
+
+  .logo img {
+    height: 100px;
+    /* Adjust logo size for medium screens */
+    width: 100px;
+    /* Adjust logo size for medium screens */
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .navbar li {
+    margin-left: 0;
+  }
+
+  .navbar a {
+    font-size: 10px;
+    /* Adjust font size for medium screens */
+    padding: 10px 0px;
+    /* Keep padding consistent */
+  }
+
+  a[href*="qanda"] {
+    left: 0;
+    /* Reset left position */
+    font-size: 10px;
+    width: 55px;
+    /* Adjust font size */
+  }
+
+  /* Box Section */
+  .box {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    /* height: 300px; */
+  }
+
+  hr {
+    margin-top: 15px;
+  }
+
+  .box1 {
+    margin: 10px 15px;
+    font-size: 20px;
+    /* Slightly smaller font for small devices */
+    align-self: center;
+  }
+
+  .box1 h2 {
+    font-size: 2rem;
+    /* Further adjust heading sizes */
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .box1 h3 {
+    font-size: 1.8rem;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .box1 p {
+    font-size: 0.8rem;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  /* Button */
+  .btn {
+    padding: 10px 30px;
+    /* Smaller button for smaller screens */
+    margin: 20px auto;
+    font-size: 18px;
+    display: block;
+    width: 200px;
+  }
+
+  /* Container */
+
+  .cont1 {
+    position: relative;
+    left: -10px;
+    top: 30px;
+  }
+
+  .cont {
+    left: 10px;
+    top: -30px;
+  }
+
+  .cont img {
+    top: 10px;
+  }
+
+  .cont1 h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .cont1 p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  /* Additional Containers */
+  .container2 {
+    flex-direction: column;
+  }
+
+  .cont3 {
+    font-size: 1.6rem;
+    margin: 15px 20px;
+    text-align: center;
+  }
+
+  .cont2 img {
+    margin: 15px auto;
+    width: 95%;
+    height: 50%;
+  }
+
+  /* Emilogo */
+  .emilogo {
+    height: auto;
+    width: 70%;
+    /* Slightly narrower for these screens */
+    margin: 20px auto;
+    top: 65px;
+  }
+
+  .emilogo a {
+    font-size: 1.3rem;
+  }
+
+  /* Bordered Element */
+  .bord {
+    width: 80%;
+    margin: 5px auto;
+  }
+
+  /* Boxes */
+  .box3,
+  .box4 {
+    width: 70%;
+    /* Adjust box width */
+    margin: 45px auto;
+    height: auto;
+    padding: 25px;
+    font-size: 1rem;
+  }
+
+  /* Centering Boxes */
+  .kbox,
+  .kbox1,
+  .kbox2 {
+    /* flex-direction: column; */
+    align-items: center;
+  }
+
+
+
+
+
+
+  .box {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+
+  }
+
+  .box1 h2 {
+    font-size: 2.4rem;
+  }
+
+  .box1 h3 {
+    font-size: 2rem;
+  }
+
+  .box1 p {
+    font-size: 0.8rem;
+  }
+
+
+
+  .box2 img {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+  }
+
+  .container,
+  .container2,
+  .container3,
+  .container4,
+  .container5 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .container {
+    flex-direction: row;
+    height: auto;
+  }
+
+
+  .cont1 h2 {
+    font-size: 2rem;
+  }
+
+  .cont1 p {
+    font-size: 1rem;
+  }
+
+  .cont3 {
+    font-size: 1rem;
+    margin: 0px;
+  }
+
+  .box3 img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .box3 {
+    width: 22%;
+    font-size: 0.5rem;
+    height: 220px;
+  }
+
+  .container5 #con1 {
+    font-size: 2rem;
+
+  }
+
+  .box4 {
+    width: 15%;
+    font-size: 0.5rem;
+    height: 60px;
+    margin: 30px 8px;
+    padding: 18px;
+  }
+
+  .box4 img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .container4 #con {
+    font-size: 2rem;
+    margin-top: 25px;
+  }
+
+  .emilogo {
+    width: 60%;
+    height: 60%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .foot1 {
+    flex-direction: column;
+  }
+
+  .con1 {
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+  }
+
+  .icon {
+    position: static;
+  }
+
+  .icon img {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Special Link */
+  .navbar a {
+    margin-left: 10px;
+    font-size: 12px;
+  }
+
+  .navbar li {
+    margin-left: 25px;
+    margin-right: 10px;
+  }
+
+
+  a[href*="qanda"] {
+    left: 50px;
+  }
+
+  /* Box Section */
+  .box {
+    flex-direction: column;
+    height: auto;
+    /* Make height flexible */
+
+    padding: 20px;
+  }
+
+  .box1 {
+    /* Adjust margin for tablets */
+    font-size: 22px;
+    /* Slightly smaller font */
+    align-self: center;
+    margin-left: -15px;
+  }
+
+  .box1 h2 {
+    font-size: 2.5rem;
+    /* Adjust title font size */
+    margin-left: 0;
+    /* Centered for tablet screens */
+    text-align: center;
+  }
+
+  hr {
+    margin-top: 25px;
+  }
+
+  .box1 h3 {
+    font-size: 2rem;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .box1 p {
+    font-size: 1.2rem;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  /* Button */
+  .btn {
+    padding: 10px 30px;
+    /* Smaller button for smaller screens */
+    margin: 20px auto;
+    font-size: 18px;
+    display: block;
+    width: 200px;
+  }
+
+  /* Container */
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .cont,
+  .cont1 {
+    position: static;
+  }
+
+  /* .cont img{
+    left: -130px;
+    top: -80px;
+    position: relative;
+  } */
+
+  .cont1 h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    /* Ensure headers are centered */
+  }
+
+  .cont1 p {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  /* Additional Containers */
+  /* .container2 {
+      flex-direction: column;
+  } */
+
+  .cont3 {
+    font-size: 1.8rem;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .cont2 img {
+    margin: 15px auto;
+    width: 550px;
+    height: 300px;
+    margin-left: 10px;
+  }
+
+  /* Emilogo */
+  .emilogo {
+    height: auto;
+    width: 60%;
+    /* Increase width for tablets */
+    margin: 20px auto;
+    top: 0;
+  }
+
+  .emilogo a {
+    font-size: 1.5rem;
+  }
+
+  /* Bordered Element */
+  .bord {
+    width: 40%;
+    margin: 30px auto;
+  }
+
+  /* Boxes */
+  .box3,
+  .box4 {
+    width: 60%;
+    /* Larger width on tablet */
+    /* margin: 30px auto; */
+    /* height: auto; */
+    padding: 30px;
+    font-size: 1.2rem;
+  }
+
+  /* .box3 {
+      margin-top: 50px;
+  } */
+
+  /* Centering Boxes */
+  .kbox,
+  .kbox1,
+  .kbox2 {
+    /* flex-direction: column; */
+    align-items: center;
+  }
+
+  .box {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    height: auto;
+  }
+
+  .box1 h2 {
+    font-size: 1.3rem;
+    margin-top: 5px;
+  }
+
+  .box1 h3 {
+    font-size: 1.5rem;
+  }
+
+  .box1 p {
+    font-size: 0.7rem;
+  }
+
+  /* .btn {
+      padding: 12px 60px;
+      font-size: 20px;
+  } */
+
+  .box2 img {
+    width: 132%;
+    height: 400px;
+    margin-top: 0;
+    margin-left: -70px;
+  }
+
+  .container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .cont1 h2 {
+    font-size: 2.5rem;
+    margin-top: 45px;
+  }
+
+  .cont1 p {
+    font-size: 1.5rem;
+  }
+
+  .cont3 {
+    font-size: 0.7rem;
+    margin-top: 22px;
+    margin-left: 10px;
+  }
+
+  .container4 #con {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: -25px;
+  }
+
+  .box3 img {
+    height: 45px;
+    width: 45px;
+  }
+
+  .box3 {
+    width: 15%;
+    font-size: 0.5rem;
+    height: 200px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .container5 #con1 {
+    font-size: 2.5rem;
+    margin-top: -45px;
+    margin-bottom: -25px;
+  }
+
+  .box4 img {
+    height: 45px;
+    width: 45px;
+  }
+
+  .box4 {
+    width: 9%;
+    font-size: 0.6rem;
+    height: 75px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 40px;
+  }
+
+  .container2 {
+    display: flex;
+    align-items: center;
+  }
+
+  .emilogo {
+    width: 35%;
+    top: 75px;
+
+  }
+
+  .con1 {
+    font-size: 0.8rem;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    margin-left: 60px;
+    margin-right: 22px;
+  }
+
+
+  .icon {
+    position: relative;
+    margin-top: 230px;
+    display: flex;
+    top: 50px;
+    right: 25px;
+  }
+
+  .icon img {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+
+
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Special Link */
+  .navbar a {
+    margin-left: -20px;
+    font-size: 14px;
+  }
+
+  .navbar li {
+    margin: 0 40px;
+  }
+
+  a[href*="qanda"] {
+    left: 50px
+  }
+
+  /* Box Section */
+  .box {
+    flex-direction: column;
+    height: auto;
+    /* Make height flexible */
+
+    padding: 20px;
+  }
+
+  .box1 {
+    /* Adjust margin for tablets */
+    font-size: 22px;
+    /* Slightly smaller font */
+    align-self: center;
+    margin-left: -15px;
+  }
+
+  .box1 h2 {
+    font-size: 2.5rem;
+    /* Adjust title font size */
+    margin-left: 0;
+    /* Centered for tablet screens */
+    text-align: center;
+  }
+
+  hr {
+    margin-top: 25px;
+  }
+
+  .box1 h3 {
+    font-size: 2rem;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .box1 p {
+    font-size: 1.2rem;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  /* Button */
+  .btn {
+    padding: 10px 30px;
+    /* Smaller button for smaller screens */
+    margin: 20px auto;
+    font-size: 18px;
+    display: block;
+    width: 200px;
+  }
+
+  /* Container */
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .cont,
+  .cont1 {
+
+    margin-left: -150px;
+  }
+
+  .cont img {
+    left: -130px;
+    top: -80px;
+    position: relative;
+  }
+
+  .cont1 h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    /* Ensure headers are centered */
+  }
+
+  .cont1 p {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  /* Additional Containers */
+  /* .container2 {
+      flex-direction: column;
+  } */
+
+  .cont3 {
+    font-size: 1.8rem;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .cont2 img {
+    margin: 20px auto;
+    width: 550px;
+    height: 300px;
+    margin-left: 10px;
+  }
+
+  /* Emilogo */
+  .emilogo {
+    height: auto;
+    width: 60%;
+    /* Increase width for tablets */
+    margin: 20px auto;
+    top: 0;
+  }
+
+  .emilogo a {
+    font-size: 1.5rem;
+  }
+
+  /* Bordered Element */
+  .bord {
+    width: 40%;
+    margin: 30px auto;
+  }
+
+  /* Boxes */
+  .box3,
+  .box4 {
+    width: 60%;
+    /* Larger width on tablet */
+    /* margin: 30px auto; */
+    /* height: auto; */
+    padding: 30px;
+    font-size: 1.2rem;
+  }
+
+  /* .box3 {
+      margin-top: 50px;
+  } */
+
+  /* Centering Boxes */
+  .kbox,
+  .kbox1,
+  .kbox2 {
+    /* flex-direction: column; */
+    align-items: center;
+  }
+
+  .box {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    height: auto;
+  }
+
+  .box1 h2 {
+    font-size: 1.3rem;
+    margin-top: 5px;
+  }
+
+  .box1 h3 {
+    font-size: 1.5rem;
+  }
+
+  .box1 p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 12px 60px;
+    font-size: 20px;
+  }
+
+  .box2 img {
+    width: 132%;
+    height: 400px;
+    margin-top: 0;
+    margin-left: -70px;
+  }
+
+  .container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .cont1 h2 {
+    font-size: 2.5rem;
+  }
+
+  .cont1 p {
+    font-size: 1.5rem;
+  }
+
+  .cont3 {
+    font-size: 1.2rem;
+    margin-top: 60px;
+  }
+
+  .container4 #con {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: -25px;
+  }
+
+  .box3 img {
+    height: 45px;
+    width: 45px;
+  }
+
+  .box3 {
+    width: 15%;
+    font-size: 0.6rem;
+    height: 200px;
+    margin-top: 15px;
+  }
+
+  .container5 #con1 {
+    font-size: 2.5rem;
+    margin-top: -45px;
+    margin-bottom: -25px;
+  }
+
+  .box4 img {
+    height: 45px;
+    width: 45px;
+  }
+
+  .box4 {
+    width: 11%;
+    font-size: 0.6rem;
+    height: 75px;
+    margin-top: 15px;
+  }
+
+  .emilogo {
+    width: 35%;
+    top: 75px;
+
+  }
+
+  .con1 {
+    font-size: 0.8rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 22px;
+  }
+
+
+  .icon {
+    position: relative;
+    margin-top: 175px;
+    display: flex;
+    top: 50px;
+    right: 25px;
+  }
+
+  .icon img {
+    height: 30px;
+    width: 30px;
+  }
+
+
+}
+
+@media only screen and (min-width: 1441px) {
+  main {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  header,
+  footer {
+    height: 100%;
+    width: 100%;
+  }
+
+  .navbar li {
+    margin-left: 10px;
+  }
+
+  .box .box2 {
+    margin-top: 90px;
+  }
+}
+
+
+@media (max-width: 570px) {
+
+  /* .popup-content{
+    height: 900px;
+  } */
+  .popup-content {
+    width: 90%;
+    /* Increase width for small screens */
+    padding: 15px;
+    /* Adjust padding for better fit */
+  }
+
+  .popup .direct3 h2,
+  .popup .direct2 h2 {
+    font-size: 1.3rem;
+    /* Slightly smaller font */
+  }
+
+  .popup .calci2 p {
+    font-size: 1.8rem;
+    /* Adjust font size */
+    white-space: nowrap;
+  }
+
+  .popup .cont3 li {
+    font-size: 1.1rem;
+    /* Adjust list item font size */
+  }
+
+  .calci4 span {
+    font-size: 16px;
+  }
+
+  .popup .direct a {
+    font-size: 0.9rem;
+    /* Reduce link font size */
+    display: block;
+    /* Ensure links stack vertically */
+    margin-bottom: 10px;
+    /* Add spacing between links */
+    width: 100%;
+    /* Make links take full width */
+    text-align: center;
+  }
+
+  .direct4 {
+    height: 1000px;
+  }
+}
