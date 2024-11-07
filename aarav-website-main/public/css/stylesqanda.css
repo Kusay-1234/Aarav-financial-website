@@ -1,0 +1,710 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "poppins";
+
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  background-color: white;
+  display: block;
+}
+
+/* Navbar Styling */
+.navbar {
+  list-style: none;
+  padding: 10px 0px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.navbar li {
+  position: relative;
+  margin: 0 40px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 0px;
+  text-align: center;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.navbar a:hover {
+  color: #6062d1;
+}
+
+/* Dropdown Styling */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content li {
+  width: 100%;
+ list-style-type: none;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px 0px;
+  display: block;
+  text-align: left;
+  margin: 5px 35px;
+  font-size: 22px;
+
+}
+.dropdown-content a:hover {
+  color: white;
+}
+
+
+/* Hover effect to show dropdown */
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: black;
+}
+
+a[href*="qanda"]{
+  background-color: white;
+  color: black !important;
+  padding: 14px;
+  position: relative;
+  left: 410px;
+  font-size: 23px;
+  font-weight: bold;
+} 
+
+
+.box{
+  position: relative;
+}
+.box1{
+  position: absolute;
+  left: 650px;
+  top: 430px;
+  font-size: 5rem;
+  color: white;
+}
+.container{
+  margin-left: 80px;
+  margin-top: -50px;
+}
+.container h3{
+  font-size: 35px;
+}
+.container p{
+  color: rgb(0 0 0 /0.7);
+  font-size: 35px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+}
+.container ul{
+  margin-bottom: 90px;
+  color: rgb(0 0 0 /0.7);
+  font-size: 35px;
+  margin-left: 70px;
+  margin-top: -105px;
+}
+.container ol{
+  margin-bottom: 90px;
+  color: rgb(0 0 0 /0.7);
+  font-size: 35px;
+  margin-left: 70px;
+  margin-top: -105px;
+}
+.container .con{
+  margin-top: -90px;
+}
+.container1{
+  display: flex;
+  justify-content: center;
+}
+.container1 h2{
+  background-color:  #6C5CA8;
+  color: white;
+  font-size: 35px;
+  padding: 10px;
+  border: 2px solid white;
+  width: 700px;
+  margin-top: 100px;
+
+}
+.container2 p{
+  color: black;
+  font-size: 38px;
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 300px
+}
+
+hr{
+  margin-top: 300px;
+ 
+}
+.foot1{
+  display: flex;
+  justify-content: space-around;
+}
+.con1{
+  font-size: 23px;
+  margin-top: 80px;
+  margin-bottom: -310px;
+  margin-left: 125px;
+
+}
+.icon{
+  position: relative;
+  top: 470px;
+  right: 110px;
+}
+.con1 a{
+  text-decoration: none;
+  color: black;
+}
+
+h6{
+  color: grey;
+  text-align: center;
+  margin-top: 34px;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 480px) {
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .logo {
+    justify-content: center; /* Center the logo */
+  }
+
+  .logo img {
+    height: 80px; /* Reduce logo size */
+    width: 80px; /* Reduce logo size */
+  }
+
+  .navbar {
+    flex-direction: column; /* Stack nav items vertically */
+    align-items: center; /* Center items */
+    padding: 0; /* Remove padding */
+    min-height: 50px;
+  }
+
+  .navbar li {
+    margin: 5px 0; /* Reduce margin between items */
+  }
+
+  .navbar a {
+    font-size: 14px; /* Smaller font size for links */
+    padding: 10px 15px; /* Adjust padding for smaller screens */
+  }
+
+  a[href*="qanda"] {
+    left: 0; /* Reset left position */
+    font-size: 14px; /* Smaller font size */
+  }
+
+  
+  .box {
+    position: relative; /* Ensure it is the reference point for .box1 */
+    height: 300px; /* Set a fixed height for the box if necessary */
+  }
+
+  /* Box1 content */
+  .box1 {
+    position: absolute; /* Keep it positioned over the image */
+    left: 26%; /* Center horizontally */
+    top: 64%; /* Center vertically */
+    /* transform: translate(-50%, -50%);  */
+    font-size: 3vw; /* Adjust font size for smaller screens */
+    color: white; /* Ensure visibility */
+    z-index: 10; /* Ensure it stays above other elements */
+  }
+
+  /* Dropdown content adjustments */
+  .dropdown-content {
+    position: absolute; /* Ensure dropdown does not affect layout */
+    display: none; /* Hidden by default */
+  }
+.dropdown-content a{
+  display: block;
+}
+  .navbar li:hover .dropdown-content {
+    display: block; /* Show dropdown on hover */
+    top: 100%; /* Position it below the navbar */
+    background-color: black; /* Ensure visibility */
+  }
+  .box img{
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+  }
+
+    
+  
+   .container h3{
+    margin-left: -67px;
+    font-size: 1rem;
+    margin-top: -120px;
+   }
+   .container p{
+    margin-left: -65px;
+    margin-right: 9px;
+    font-size: 0.8rem;
+    
+   }
+   .container ul{
+    margin-left: -25px;
+    margin-right: 10px;
+    font-size: 0.8rem;
+    
+   }
+   .container ol{
+    margin-left: -25px;
+    margin-right: 10px;
+    font-size: 0.8rem;
+    
+   }
+   .container1 h2{
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: -70px;
+
+   }
+   .container2 p{
+    font-size: 0.8rem;
+      margin-left: 9px;
+    margin-right: 10px;
+   }
+   hr{
+    margin-top: 60px;
+   }
+   .foot1 {
+    display: block; /* Stack the footer content vertically */
+    text-align: center;
+    margin-top: -45px; /* Add some space above the footer */
+  }
+  
+  .con1 {
+    margin-left: 0; /* Reset margins */
+    margin-right: 0;
+    margin-bottom: 0px;
+    font-size: 16px; /* Space out footer items */
+  }
+  
+  .icon {
+    top: 0;
+    right: 0;
+    text-align: center; /* Center icons */
+  }
+  .icon img{
+    height: 30px;
+    width: 30px;
+   }
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .logo {
+    justify-content: center; /* Center the logo */
+  }
+
+  .logo img {
+    height: 100px; /* Adjust logo size for medium screens */
+    width: 100px; /* Adjust logo size for medium screens */
+  }
+
+  .navbar {
+   flex-wrap: nowrap;
+   justify-content: center;
+  }
+
+  .navbar li {
+    margin-left: 0px;
+  }
+
+  .navbar a {
+    font-size: 10px; /* Adjust font size for medium screens */
+    padding: 10px 0px; /* Keep padding consistent */
+  }
+
+  a[href*="qanda"] {
+    left: 0; /* Reset left position */
+    font-size: 10px;
+    width: 55px; /* Adjust font size */
+  }
+  
+    .box img {
+      width: 100%; /* Ensure the image scales down for smaller screens */
+      height: auto; /* Maintain aspect ratio */
+    }
+  
+    .box1 {
+      left: 25%; /* Center the text horizontally */
+      top: 32%; /* Adjust the vertical position */
+    
+      font-size: 3vw; /* Reduce font size for smaller screens */
+    }
+
+    
+  
+   .container h3{
+    margin-left: -67px;
+    font-size: 1.3rem;
+    margin-top: -35px;
+   }
+   .container p{
+    margin-left: -65px;
+    margin-right: 9px;
+    font-size: 1rem;
+   }
+   .container ul{
+    margin-left: -25px;
+    margin-right: 10px;
+    font-size: 1rem;
+    
+   }
+   .container ol{
+    margin-left: -25px;
+    margin-right: 10px;
+    font-size: 1rem;
+    
+   }
+   .container1 h2{
+    font-size: 1rem;
+    padding-left: 15px;
+    padding-top: 16px;
+    margin-top: -70px;
+    text-align: center;
+
+   }
+   .container2 p{
+    font-size: 1rem;
+    margin-left: 9px;
+    margin-right: 10px;
+   }
+   hr{
+    margin-top: 60px;
+   }
+   footer{
+    text-align: center;
+  }
+
+  .foot1{
+    flex-direction: column;
+   }
+   .con1{
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+   }
+   .icon{
+    position: static;
+   }
+   .icon img{
+    height: 30px;
+    width: 30px;
+   }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .navbar a{
+    font-size: 12px;
+    margin-left: 10px;
+    }
+
+    .navbar li{
+      margin-left: 25px;
+      margin-right: 10px;
+    }
+    
+    a[href*="qanda"]{
+     left: 50px
+    }
+  
+    .box img {
+      width: 100%; /* Ensure the image scales down for smaller screens */
+      height: auto; /* Maintain aspect ratio */
+    }
+  
+    .box1 {
+      left: 25%; /* Center the text horizontally */
+      top: 42%; /* Adjust the vertical position */
+    
+      font-size: 3vw; /* Reduce font size for smaller screens */
+    }
+
+    
+  
+   .container h3{
+    margin-left: -67px;
+    font-size: 1.2rem;
+    margin-top: -35px;
+   }
+   .container p{
+    margin-left: -65px;
+    margin-right: 9px;
+    font-size: 1rem;
+    text-align: justify;
+   }
+   .container ul{
+    margin-left: -25px;
+    margin-right: 10px;
+    font-size: 1rem;
+    text-align: justify;
+   }
+   .container ol{
+    margin-left: -25px;
+    margin-right: 10px;
+    font-size: 1rem;
+    text-align: justify;
+   }
+   .container1 h2{
+    font-size: 19px;
+    padding-left: 15px;
+    padding-top: 16px;
+    margin-top: -70px;
+    text-align: center;
+
+   }
+   .container2 p{
+    font-size: 16px;
+    margin-left: 9px;
+    margin-right: 10px;
+   }
+   hr{
+    margin-top: 60px;
+   }
+   footer{
+    text-align: center;
+  }
+  
+  .foot1{
+    flex-direction: row;
+    
+   }
+   .con1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-size: 12px;
+    margin-right: 2px;
+   }
+   .icon {
+    position: relative;
+    margin-top: 170px;
+    display: flex;
+    top: 50px;
+    right: 5px;
+   }
+   .icon img{
+    height: 30px;
+    width: 30px;
+   }
+   
+   
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .navbar a{
+    margin-left: -20px;
+    font-size: 14px;
+    }
+
+    .navbar li{
+      margin: 0 40px;
+    }
+
+    a[href*="qanda"]{
+     left: 50px
+    }
+  
+    .box img {
+      width: 100%; /* Ensure the image scales down for smaller screens */
+      height: auto; /* Maintain aspect ratio */
+    }
+  
+    .box1 {
+      left: 25%; /* Center the text horizontally */
+      top: 45%; /* Adjust the vertical position */
+    
+      font-size: 3vw; /* Reduce font size for smaller screens */
+    }
+  
+   .container h3{
+    margin-left: -75px;
+    font-size: 1.2rem;
+    margin-top: -35px;
+   }
+
+   .container p{
+    margin-left: -65px;
+    margin-right: 9px;
+    font-size: 1rem;
+    text-align: justify;
+   }
+
+   .container ul{
+    margin-left: -25px;
+    margin-right: 10px;
+    font-size: 1rem;
+    text-align: justify;
+   }
+
+   .container ol{
+    margin-left: -25px;
+    margin-right: 10px;
+    font-size: 1rem;
+    text-align: justify;
+   }
+
+   .container1 h2{
+    font-size: 19px;
+    text-align: center;
+    margin-top: -50px;
+   }
+   .container2 p{
+    font-size: 0.9rem;
+    margin-left: 9px;
+    margin-right: 10px;
+   }
+
+   hr{
+    margin-top: 60px;
+   }
+
+   .con1{
+    font-size: 0.8rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 22px;
+   }
+  
+
+   .icon {
+    position: relative;
+    margin-top: 175px;
+    display: flex;
+    top: 50px;
+    right: 25px;
+   }
+
+   .icon img{
+    height: 30px;
+    width: 30px;
+   }
+
+}
+
+@media only screen and (min-width: 1441px) {
+
+  body{
+    overflow-x: hidden;
+  }
+
+ 
+    a[href*="qanda"]{
+     left: 200px
+    }
+  
+    .box img {
+      width: 100%; /* Ensure the image scales down for smaller screens */
+      height: auto; /* Maintain aspect ratio */
+    }
+  
+    .box1 {
+      left: 25%; /* Center the text horizontally */
+      top: 28%; /* Adjust the vertical position */
+      font-size: 3vw; /* Reduce font size for smaller screens */
+    }
+
+    
+  
+   .container h3{
+    margin-left: -67px;
+    font-size: 28px;
+    margin-top: 30px;
+   }
+   .container p{
+    margin-left: -65px;
+    margin-right: 9px;
+    font-size: 25px;
+    text-align: justify;
+   }
+   .container ul{
+    margin-left: -25px;
+    margin-right: 10px;
+    font-size: 25px;
+    text-align: justify;
+   }
+   .container ol{
+    margin-left: -25px;
+    margin-right: 10px;
+    font-size: 25px;
+    text-align: justify;
+   }
+   .container1 h2{
+    font-size: 19px;
+    text-align: center;
+   
+
+   }
+   .container2 p{
+    font-size: 19px;
+    margin-left: 9px;
+    margin-right: 10px;
+   }
+   hr{
+    margin-top: 60px;
+   }
+  
+   .icon {
+    position: relative;
+    margin-top: 120px;
+    display: flex;
+    top: 300px;
+    right: 25px;
+
+   }
+}
+
+@media only screen and (min-width: 1441px){
+  header, main{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  footer{
+    height: 100%;
+    width: 100%;
+  }
+}
