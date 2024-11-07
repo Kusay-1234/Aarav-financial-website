@@ -998,6 +998,7 @@ footer{
   body{
     overflow-x: hidden;
   }
+
   .navbar a{
     margin-left: -20px;
     font-size: 14px;
@@ -1009,10 +1010,6 @@ footer{
   a[href*="qanda"]{
    left: 50px;
   }
-  /* .box{
-    flex-direction: column;
-  } */
-
 
   .box img {
     width: 37%;
@@ -1050,9 +1047,7 @@ footer{
     margin-top: 35px;
     font-size: 1.5rem;
 }
-/* .rep2{
-  flex-direction: column;
-} */
+
 
 .rep2 img{
   display: block; /* Ensure the image is treated as a block element */
@@ -1158,15 +1153,7 @@ main .cont{
   margin-top: -30px;
 }
 
-/* .rep::after{
-  display: none;
-}
-.cont::after{
-  display: none;
-}
-#cont2::after{
-  display: none;
-} */
+
 hr{
   margin-top: 90px;
 }
@@ -1197,14 +1184,11 @@ hr{
   body{
     overflow-x: hidden;
   }
+
  
   a[href*="qanda"]{
    left: 200px;
    }
-
-  /*.box{
-    flex-direction: column;
-  } */
 
 
  .box1 img {
@@ -1215,16 +1199,17 @@ hr{
 } 
   
    .box .box2{
-        font-size: 19px;
+    font-size: 19px;
     margin: 120px 4px;
     margin-right: 25px;
     margin-left: -35px;
   } 
+
   .box .box3{
     font-size: 22px;
-    margin: 50px 20px;
-    
+    margin: 215px 20px;  
 }
+
 .box4 img {
   width: 800px;
   height: 450px;
@@ -1232,34 +1217,37 @@ hr{
   margin-top: -40px;
 }
 
-
 .box1{
   font-size: 23px;
     margin: 26px 2px;
 }
+
 #repo{
   margin-left: 22px;
     margin-top: 55px;
     font-size: 35px;
 }
+
 .rep2 p{
   font-size: 24px;
 }
 
 .box .con1 {
   font-size: 21px;
-  
 }
+
 .box .con3 {
-  font-size: 21px;
-  
+  font-size: 21px;  
 }
+
 .box .con5 {
   font-size: 21px;
 }
+
 .box .con7 {
   font-size: 21px;
 }
+
 .container {
   font-size: 25px;
 }
@@ -1288,13 +1276,22 @@ hr{
   right: 25px;
 
  }
+
+ .box img{
+  margin-top: 15px;
+  margin-left: 15px;
+ }
+
+ h6{
+  margin-top: 280px;
+ }
+
 }
 
 @media only screen and (min-width: 1441px){
   header,main{
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
   }
   footer{
   height: 100%;

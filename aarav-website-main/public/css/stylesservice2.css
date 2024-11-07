@@ -551,9 +551,7 @@ h6{
     left: 50px
   }
 
-  /* .container{
-      flex-direction: column;
-    } */
+
 
   .container img {
     width: 50%;
@@ -644,13 +642,31 @@ h6{
     padding-left: 10px;
   }
 
+  .cont2 h2{
+    font-size: 33px;
+  }
+
+  .cont2 p{
+    font-size: 30px;
+  }
+
+  .container img {
+    
+    margin-top: 20px;
+    margin-left: 10px
+  }
+
   .container .cont2 {
     margin-top: 65px;
     margin-left: 40px;
   }
 
   hr {
-    margin-top: 350px;
+    margin-top: 240rem;
+  }
+
+  h6{
+    margin-top: 450px;
   }
 
   .navbar li {

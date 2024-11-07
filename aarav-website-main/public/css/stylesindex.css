@@ -49,8 +49,6 @@
   display: none;
   position: absolute;
   min-width: 160px;
-  /* box-shadow: 0px 8px 16px rgba(0,0,0,0.2); */
-  /* z-index: 1; */
 }
 
 .dropdown-content li {
@@ -1426,10 +1424,7 @@ h6{
     text-align: center;
   }
 
-  /* Additional Containers */
-  /* .container2 {
-      flex-direction: column;
-  } */
+ 
 
   .cont3 {
     font-size: 1.8rem;
@@ -1622,6 +1617,72 @@ h6{
 
   .box .box2 {
     margin-top: 90px;
+  }
+
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .cont,
+  .cont1 {
+
+    margin-left: -20px;
+  }
+
+  .cont img {
+    left: -130px;
+    top: -85px;
+    position: relative;
+  }
+  
+  .cont1 h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    position: relative;
+    top: -200px;
+    left: -200px;
+  }
+
+  .cont1 p {
+    font-size: 2.5rem;
+    text-align: center;
+    position: relative;
+    top: -220px;
+    left: -200px;
+  }
+
+  .cont2 img{
+    height: 600px;
+    width: 880px;
+    margin-top: 35px;
+    margin-left: 30px;
+  }
+.cont3{
+  font-size: 32px;
+    margin-top: 100px;
+    margin-left: -12px;
+}
+
+.container3{
+  margin-top: -120px;
+}
+
+
+.bord{
+width: 600px;
+margin-left: 530px;
+margin-top: 5px;
+}
+
+.emilogo{
+  margin-left: 760px;
+}
+
+
+  h6{
+    margin-top: 450px;
+
   }
 }
 

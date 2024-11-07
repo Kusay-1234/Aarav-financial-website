@@ -1118,6 +1118,10 @@ margin-top: -20px; /* Add margin to avoid cutting */
     height: 100%; /* Set responsive width */
     max-width: 300px; /* Prevent logo from being too large */
   }
+
+  h6{
+    margin-top: 450px;
+  }
 }
 @media only screen and (min-width: 1441px){
   main{

@@ -228,7 +228,7 @@ h6{
   .box1 {
     position: absolute; /* Keep it positioned over the image */
     left: 26%; /* Center horizontally */
-    top: 64%; /* Center vertically */
+    top: 50%; /* Center vertically */
     /* transform: translate(-50%, -50%);  */
     font-size: 3vw; /* Adjust font size for smaller screens */
     color: white; /* Ensure visibility */
@@ -259,7 +259,7 @@ h6{
    .container h3{
     margin-left: -67px;
     font-size: 1rem;
-    margin-top: -120px;
+    margin-top: -80px;
    }
    .container p{
     margin-left: -65px;
@@ -359,7 +359,7 @@ h6{
   
     .box1 {
       left: 25%; /* Center the text horizontally */
-      top: 32%; /* Adjust the vertical position */
+      top: 26%; /* Adjust the vertical position */
     
       font-size: 3vw; /* Reduce font size for smaller screens */
     }
@@ -452,7 +452,7 @@ h6{
   
     .box1 {
       left: 25%; /* Center the text horizontally */
-      top: 42%; /* Adjust the vertical position */
+      top: 32%; /* Adjust the vertical position */
     
       font-size: 3vw; /* Reduce font size for smaller screens */
     }
@@ -554,7 +554,7 @@ h6{
   
     .box1 {
       left: 25%; /* Center the text horizontally */
-      top: 45%; /* Adjust the vertical position */
+      top: 35%; /* Adjust the vertical position */
     
       font-size: 3vw; /* Reduce font size for smaller screens */
     }
@@ -643,7 +643,7 @@ h6{
   
     .box1 {
       left: 25%; /* Center the text horizontally */
-      top: 28%; /* Adjust the vertical position */
+      top: 42%; /* Adjust the vertical position */
       font-size: 3vw; /* Reduce font size for smaller screens */
     }
 
@@ -693,7 +693,10 @@ h6{
     display: flex;
     top: 300px;
     right: 25px;
+   }
 
+   h6{
+    margin-top: 280px;
    }
 }
 

@@ -759,9 +759,7 @@ h6{
       font-size: 1.5rem;
 
     }
-    .container1{
-      margin-top: -140px;
-    }
+ 
 
     .container1 .con{
       margin-top: 88px;
@@ -777,8 +775,8 @@ h6{
     display: flex;
     justify-content: space-between; /* Ensure proper spacing between text and image */
     align-items: flex-start; /* Align content from the top */
-    max-width: 1600px; /* Limit the width of the container */
-    margin-top: 100px;
+   
+    margin-top: -300px;
     margin-bottom: 0; /* Center the entire content */
     position: static;
   }
@@ -805,12 +803,22 @@ h6{
     height: auto; /* Keep image proportions */
   }
 
+  .container3{
+    margin-top: 90px;
+  }
 
+  .container4{
+    margin-top: -95px;
+  }
 
+  .add-content{
+    margin-top: 300px;
+  }
 
-    .container3 h2{
+  .container3 h2{
       font-size: 3rem;
     }
+
     .container3 ul{
       
       font-size: 2rem;
